@@ -1,0 +1,61 @@
+I have shared a few reference screenshots only for inspiration.
+
+DO NOT copy the UI, layout, colors, structure, or design from those screenshots.
+
+Instead, understand the overall concept and user flow, then design something completely original, much better, more premium, and unique for the Palagaram brand.
+
+I trust your creativity.
+
+Think like a Senior UI/UX Designer working for Apple, Zomato, Swiggy, Airbnb, and Michelin-star restaurant websites.
+
+Do not create an ordinary Catering page.
+
+I want a world-class luxury catering booking experience that no one has seen before.
+
+Create your own design from scratch.
+
+You are free to completely rethink the layout, interactions, animations, sections, and booking flow.
+
+Do not limit yourself to traditional restaurant websites.
+
+Design something that makes customers immediately feel:
+"Wow... this restaurant is premium."
+
+Requirements:
+
+• Keep the existing Palagaram luxury theme.
+• Do NOT modify any other page.
+• Only redesign the Catering page.
+• Make it feel like a premium event booking platform instead of a normal catering page.
+• Use beautiful full-width sections.
+• Add premium illustrations, luxury catering images, elegant icons, glassmorphism cards, smooth animations, and modern interactions.
+• Every section should feel alive.
+• Avoid long boring text blocks.
+• Use visually rich layouts.
+
+I want you to think beyond my references.
+
+Surprise me with ideas that I have not even thought about.
+
+If you feel a section can be improved, redesign it completely.
+
+If you think a better user flow exists, implement it.
+
+If you think another premium interaction would improve conversions, add it.
+
+Your goal is NOT to recreate my screenshots.
+
+Your goal is to create something significantly better, more luxurious, more interactive, and more memorable.
+
+The final Catering experience should look like it was designed by a world-class product design agency exclusively for Palagaram.
+
+After completing the design:
+• Verify responsiveness.
+• Verify animations.
+• Verify accessibility.
+• Verify performance.
+• Verify all buttons and forms.
+• Ensure there are no placeholders or broken images.
+• Make the page production-ready.
+
+I want customers to remember this Catering page and immediately trust Palagaram with their events.

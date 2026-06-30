@@ -1,0 +1,228 @@
+Add a brand-new premium "Catering Services" section/page to my existing Palagaram Restaurant website.
+
+IMPORTANT:
+- Do NOT modify, redesign, remove, or replace any existing section.
+- Do NOT change the homepage layout.
+- Do NOT change colors, fonts, animations, navigation, spacing, branding, or any existing functionality.
+- Only add a new Catering Services section/page that perfectly matches the existing luxury design of the website.
+
+Design Requirements:
+- Follow the same premium brown, gold, cream, and elegant luxury theme.
+- Make it fully responsive for mobile, tablet, laptop, and desktop.
+- Use smooth premium animations.
+- Use high-quality real catering and restaurant images (or images from my uploaded assets if available).
+- No placeholders or broken images.
+- Maintain the same UI/UX style as the rest of the website.
+
+The Catering page should include the following sections:
+
+1. Premium Hero Section
+- Large beautiful catering banner.
+- Dark overlay for readability.
+- Heading:
+  "Premium Catering Services"
+- Subtitle:
+  "Making Every Celebration Delicious & Memorable"
+- CTA Buttons:
+  • Book Catering
+  • Get a Free Quote
+  • Call Now
+
+2. About Our Catering
+Explain:
+- Traditional Taste
+- Premium Quality
+- Hygienic Preparation
+- Fresh Ingredients
+- Professional Service
+- Timely Delivery
+
+3. Catering Services We Offer
+Display beautiful premium cards for:
+- Wedding Catering
+- Birthday Parties
+- Engagement Functions
+- House Warming
+- Corporate Events
+- Office Lunch
+- School & College Functions
+- Temple Festivals
+- Family Gatherings
+- Outdoor Events
+- Baby Shower
+- Anniversary Celebrations
+
+Each card should include:
+- Premium image
+- Title
+- Short description
+- Learn More button
+
+4. Our Special Catering Menu
+Beautiful categorized menu:
+
+Breakfast
+Lunch
+Dinner
+Snacks
+Sweets
+Beverages
+Traditional South Indian Meals
+North Indian Menu
+Chinese Menu
+Live Counters
+
+Each category should have premium food images.
+
+5. Live Food Counters
+Display attractive cards for:
+- Live Dosa Counter
+- Live Chaat Counter
+- Live Idiyappam Counter
+- Live Parotta Counter
+- Live Sweet Counter
+- Live Tea & Coffee Counter
+
+6. Why Choose Our Catering?
+Beautiful icon cards:
+
+Fresh Ingredients
+100% Hygienic Kitchen
+Experienced Chefs
+On-Time Delivery
+Affordable Packages
+Custom Menu Options
+Professional Staff
+Best Customer Service
+
+7. Catering Packages
+Create Premium Pricing Cards:
+
+Silver Package
+
+Gold Package
+
+Platinum Package
+
+Each package should display:
+- Number of Guests
+- Menu Includes
+- Live Counters
+- Service Staff
+- Decoration Support
+- Price (Sample)
+- Book Now button
+
+8. Gallery
+Beautiful premium gallery showing:
+- Wedding Catering
+- Buffet Setup
+- Food Counters
+- Traditional Meals
+- Event Decoration
+- Customer Dining
+
+Use masonry/grid layout with hover zoom animation.
+
+9. Our Catering Process
+Beautiful timeline:
+
+Inquiry
+↓
+
+Discussion
+↓
+
+Menu Selection
+↓
+
+Quotation
+↓
+
+Confirmation
+↓
+
+Preparation
+↓
+
+Event Day
+↓
+
+Successful Service
+
+10. Testimonials
+Customer reviews with:
+- Customer image
+- Name
+- Event type
+- Rating
+- Review
+
+11. Frequently Asked Questions
+
+Include questions like:
+- Minimum guests?
+- Advance booking?
+- Outside city service?
+- Custom menu available?
+- Live counter available?
+- Cancellation policy?
+- Payment methods?
+
+12. Call To Action
+Large premium banner:
+
+"Let's Make Your Event Memorable"
+
+Buttons:
+- Book Catering
+- Contact Us
+- WhatsApp
+
+13. Contact Information
+
+Display:
+- Phone Number
+- WhatsApp
+- Email
+- Address
+- Google Map
+- Working Hours
+
+14. Image Requirements
+
+Use premium catering images throughout the page.
+
+Images should include:
+- Wedding buffet
+- Banana leaf meals
+- Traditional South Indian food
+- Catering team
+- Buffet counters
+- Live cooking
+- Guests enjoying food
+- Luxury event setup
+
+No placeholder images.
+No broken images.
+
+15. Performance
+
+Lazy-load all images.
+Optimize image quality.
+Maintain fast loading speed.
+
+16. Final Verification
+
+After completing the page:
+- Run the project.
+- Verify responsiveness.
+- Verify all buttons.
+- Verify all animations.
+- Verify all images.
+- Ensure there are no layout issues or broken sections.
+
+The new Catering Services page must look like it was designed by a premium luxury restaurant web design agency.
+
+Do not modify any existing page or feature.
+Only add this Catering Services section/page while keeping the rest of the website exactly as it is.

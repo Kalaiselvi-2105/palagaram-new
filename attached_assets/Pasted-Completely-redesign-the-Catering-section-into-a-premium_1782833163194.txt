@@ -1,0 +1,346 @@
+Completely redesign the Catering section into a premium interactive experience.
+
+IMPORTANT:
+Do NOT copy Sulekha, Justdial, or any existing website.
+Take inspiration only from the user flow.
+Create a completely original, luxury, modern, world-class UI that matches the Palagaram branding.
+
+Do NOT modify any other page of the website.
+Only redesign the Catering page.
+
+==================================
+PREMIUM USER FLOW
+==================================
+
+Instead of showing a long static catering page, create an interactive multi-step catering booking experience.
+
+Step 1
+"What type of event are you planning?"
+
+Show beautiful premium cards with icons and images.
+
+Options:
+• Wedding
+• Reception
+• Engagement
+• Birthday Party
+• House Warming
+• Corporate Event
+• Temple Function
+• School / College Event
+• Baby Shower
+• Anniversary
+• Outdoor Catering
+• Other
+
+After selection,
+automatically go to Step 2.
+
+----------------------------------
+
+Step 2
+
+"What type of food do you prefer?"
+
+Beautiful premium selection cards.
+
+Options:
+
+• Pure Veg
+• Brahmin Style
+• South Indian Traditional
+• North Indian
+• Multi Cuisine
+• Jain Food
+• Breakfast Only
+• Lunch
+• Dinner
+• Snacks
+• Custom Menu
+
+----------------------------------
+
+Step 3
+
+Guest Count
+
+Beautiful animated slider
+
+10
+25
+50
+100
+250
+500
+1000
+2000+
+
+Show estimated catering size.
+
+----------------------------------
+
+Step 4
+
+Budget
+
+Animated price cards
+
+Economy
+
+Premium
+
+Luxury
+
+Royal
+
+----------------------------------
+
+Step 5
+
+Live Counter Selection
+
+Beautiful image cards
+
+Live Dosa
+
+Live Chaat
+
+Live Idli
+
+Live Parotta
+
+Live Sweet Counter
+
+Live Filter Coffee
+
+Live Juice
+
+Live Ice Cream
+
+Live Mini Tiffin
+
+----------------------------------
+
+Step 6
+
+Additional Services
+
+Checkbox cards
+
+Decoration
+
+Serving Staff
+
+Banana Leaf Setup
+
+Table Arrangement
+
+Welcome Drinks
+
+Return Gifts
+
+Photography
+
+Sound System
+
+----------------------------------
+
+Step 7
+
+Customer Details
+
+Luxury glassmorphism form
+
+Name
+
+Phone
+
+Email
+
+Event Date
+
+Venue
+
+City
+
+Special Requirements
+
+----------------------------------
+
+Step 8
+
+AI Quote Summary
+
+Generate a beautiful summary.
+
+Event
+
+Guests
+
+Food Type
+
+Live Counters
+
+Additional Services
+
+Estimated Budget
+
+----------------------------------
+
+Buttons
+
+Request Quote
+
+Call Now
+
+WhatsApp
+
+Download PDF
+
+==================================
+
+AFTER FORM SUBMISSION
+
+Instead of simply saying "Submitted"
+
+Show an elegant full-screen success animation.
+
+"Thank you."
+
+"Our catering manager will contact you shortly."
+
+Show confetti.
+
+Luxury success animation.
+
+==================================
+
+EXTRA PREMIUM SECTIONS
+
+Below the booking wizard add
+
+Why Choose Palagaram
+
+Timeline
+
+How We Work
+
+Customer Reviews
+
+Real Event Gallery
+
+Video Gallery
+
+Our Team
+
+Our Kitchen
+
+Live Counter Showcase
+
+Popular Catering Menus
+
+Festival Packages
+
+Wedding Packages
+
+Corporate Packages
+
+FAQ
+
+Google Reviews
+
+Contact
+
+Google Map
+
+==================================
+
+DESIGN
+
+Use premium luxury UI.
+
+Rounded cards.
+
+Glassmorphism.
+
+Soft shadows.
+
+Premium gold gradients.
+
+Brown luxury theme.
+
+Beautiful icons.
+
+Micro animations.
+
+Framer Motion animations.
+
+Page transitions.
+
+Hover animations.
+
+Floating background shapes.
+
+Luxury typography.
+
+Professional spacing.
+
+==================================
+
+IMAGES
+
+Use high-quality catering images.
+
+Wedding buffet
+
+Banana leaf meals
+
+Traditional South Indian meals
+
+Guests enjoying food
+
+Live cooking
+
+Chef team
+
+Premium buffet
+
+Corporate catering
+
+Temple function
+
+Birthday setup
+
+House warming
+
+Live dosa counter
+
+Filter coffee counter
+
+==================================
+
+RESPONSIVE
+
+Perfect on
+
+Mobile
+
+Tablet
+
+Laptop
+
+Desktop
+
+==================================
+
+IMPORTANT
+
+This must NOT look like a normal restaurant catering page.
+
+It should feel like a premium event booking platform built specifically for Palagaram.
+
+It should impress customers immediately and encourage them to submit an enquiry.
+
+Do not copy any website.
+
+Create an original luxury design that is even better than Sulekha, Justdial, and other catering websites while keeping the Palagaram brand identity.

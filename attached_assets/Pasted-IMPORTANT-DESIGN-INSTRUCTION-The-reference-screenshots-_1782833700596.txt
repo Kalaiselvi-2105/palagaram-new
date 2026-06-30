@@ -1,0 +1,86 @@
+IMPORTANT DESIGN INSTRUCTION
+
+The reference screenshots I shared are ONLY for understanding the premium user experience and booking flow.
+
+DO NOT copy the design, layout, colors, spacing, components, typography, or UI directly.
+
+Instead, create a completely original premium experience exclusively for Palagaram.
+
+Think like a Senior Product Designer.
+
+I want users to feel they are booking a luxury catering service—not filling a normal restaurant form.
+
+The booking wizard should feel like an interactive experience.
+
+Every step should have beautiful animations, premium illustrations, elegant cards, hover effects, smooth transitions, and delightful micro-interactions.
+
+Do not use boring forms.
+
+Every selection should feel satisfying.
+
+Each step should have different layouts instead of repeating the same card design.
+
+Use premium background illustrations, decorative patterns, subtle floating elements, glassmorphism, gradients, luxury shadows, and elegant spacing.
+
+Whenever possible use image-based selections instead of plain buttons.
+
+The user should enjoy completing the booking process.
+
+Add smart recommendations wherever possible.
+
+Examples:
+• If Wedding is selected, recommend Royal Package.
+• If Guest Count exceeds 500, recommend Live Counters.
+• If Corporate Event is selected, recommend Breakfast or Lunch Packages.
+• Show estimated preparation timeline.
+• Show estimated manpower required.
+• Show recommended menu suggestions.
+• Show estimated serving duration.
+• Show event checklist.
+• Show booking confidence indicators.
+• Show trust badges.
+• Show premium guarantee cards.
+• Show chef recommendation cards.
+
+Add premium visual sections that do not exist in ordinary catering websites.
+
+Examples:
+• Event Inspiration Gallery
+• Previous Event Highlights
+• Live Kitchen Experience
+• Meet Our Catering Team
+• Our Cooking Process
+• Food Safety Standards
+• Kitchen Hygiene
+• Behind The Scenes
+• Client Success Stories
+• Before vs After Venue Setup
+• Signature Catering Experience
+• Luxury Event Statistics
+• Frequently Ordered Menus
+• Premium Add-ons
+• Popular Event Themes
+
+Every section should have beautiful animations.
+
+Never leave empty spaces.
+
+Every screen should feel alive.
+
+Use premium typography.
+
+Use luxury spacing.
+
+Use premium icons.
+
+Use elegant transitions.
+
+The final Catering page should look like it was designed by an international UI/UX agency specifically for Palagaram.
+
+Surprise me with creative ideas.
+
+Do not ask me for approval while designing.
+
+Think independently and make the best design decisions.
+
+Build something that can become the best restaurant catering website in India.

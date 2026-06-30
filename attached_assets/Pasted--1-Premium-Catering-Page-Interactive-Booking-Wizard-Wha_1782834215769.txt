@@ -1,0 +1,71 @@
+#1 - Premium Catering Page — Interactive Booking Wizard
+What & Why
+Completely redesign CateringPage.tsx into a world-class, luxury multi-step catering booking experience that feels like a premium event platform — not a static restaurant page. The 8-step interactive wizard guides the user from event type to final quote summary with smooth animations, glassmorphism UI, and confetti success animation. Below the wizard, add premium static sections (Why Choose, Timeline, Testimonials, Gallery, FAQ, CTA, Contact, Map). No other page or shared component is touched.
+
+Done looks like
+Booking Wizard (Steps 1–8, in-page, no page reload)
+Step 1 — Event Type: 12 large premium image cards in a responsive grid (Wedding, Reception, Engagement, Birthday Party, House Warming, Corporate Event, Temple Function, School/College Event, Baby Shower, Anniversary, Outdoor Catering, Other). Clicking a card auto-advances to Step 2. Progress bar at the top shows step 1 of 8.
+Step 2 — Food Preference: 11 pill/card selectors (Pure Veg, Brahmin Style, South Indian Traditional, North Indian, Multi Cuisine, Jain Food, Breakfast Only, Lunch, Dinner, Snacks, Custom Menu). "Next" button enabled after selection.
+Step 3 — Guest Count: Animated custom slider with snap points: 10, 25, 50, 100, 250, 500, 1000, 2000+. Shows a live label like "Estimated: Grand Wedding Scale" based on count.
+Step 4 — Budget Tier: 4 animated price cards — Economy, Premium, Luxury, Royal — each with a sample price range and feature bullets. Single-select.
+Step 5 — Live Counters: Multi-select image cards for 9 counters (Live Dosa, Live Chaat, Live Idli, Live Parotta, Live Sweet Counter, Live Filter Coffee, Live Juice, Live Ice Cream, Live Mini Tiffin). Checkmark overlay on selected cards.
+Step 6 — Additional Services: 8 checkbox cards (Decoration, Serving Staff, Banana Leaf Setup, Table Arrangement, Welcome Drinks, Return Gifts, Photography, Sound System). Multi-select.
+Step 7 — Customer Details: Glassmorphism form card — Name, Phone, Email, Event Date, Venue, City, Special Requirements. All fields with floating labels.
+Step 8 — Quote Summary: Elegant full-screen summary card showing all selections (Event, Guests, Food Type, Live Counters, Additional Services, Estimated Budget range). Four action buttons: "Request Quote" (submits form), "Call Now" (tel:), "WhatsApp" (wa.me/), "Download PDF" (triggers window.print()).
+After "Request Quote" is clicked: full-screen success overlay with confetti animation (CSS keyframe particles), "Thank You" heading, "Our catering manager will contact you shortly" message, a back-to-home link, and a WhatsApp button.
+Progress indicator (step dots or bar) persists at the top of the wizard across all steps. Back button available from step 2 onward.
+Premium Sections Below Wizard
+Why Choose Palagaram — 8 icon cards with gold glow, same design language as wizard.
+How We Work Timeline — 5-step horizontal (desktop) / vertical (mobile) process: Inquiry → Planning → Menu Finalization → Event Day → Follow-Up.
+Customer Reviews — 4 catering-specific testimonial cards with name, initials avatar, event type badge, 5-star rating.
+Real Event Gallery — 9-image masonry grid with hover zoom and label overlays; all images from Unsplash (wedding buffet, banana leaf sadhya, buffet counters, live cooking, corporate catering, etc.).
+Popular Packages — 3 pricing cards: Wedding, Corporate, Festival — each with guest range, menu highlights, and "Book Now" → wizard scroll.
+FAQ — 7 accordion items covering min guests, advance booking, outside-city service, custom menu, live counters, cancellation, and payment methods.
+"Let's Make Your Event Memorable" CTA Banner — Full-width dark section, subtitle, 3 buttons: Book Catering (scroll to wizard), Call Now, WhatsApp.
+Contact + Google Map — Phone, WhatsApp, Email, Address cards + embedded Google Maps iframe for 156 West Car Street, Chidambaram.
+Design System (consistent with existing site)
+Color palette: #2D1A10 dark brown, #C89B5A gold, #FAF8F5 cream, #4B352A medium brown, #F6F0E8 light cream
+Font: existing font-serif for headings, system sans for body
+Animations: Framer Motion fadeUp variant (already defined in file), whileInView for scroll-triggered sections, AnimatePresence for step transitions
+Cards: rounded-2xl, border border-[#EADBC8], shadow-sm hover:shadow-lg
+Gold accents: bg-[#C89B5A], text-[#C89B5A], border-[#C89B5A]
+Glassmorphism (wizard form): bg-white/10 backdrop-blur-md border border-white/20
+All images: loading="lazy" attribute, real Unsplash URLs, no placeholders
+Out of scope
+Any modification to Home, Menu, Gallery, Reservation, Checkout, or any other page
+Changes to Navbar, Footer, CartContext, or any shared component
+Backend / API / database changes
+New npm packages beyond what's already installed (framer-motion, lucide-react, wouter, tailwind are all present)
+Steps
+Define wizard state — At the top of CateringPage.tsx, replace all existing data arrays and add a WizardState type + useState hook tracking: step (1–8), eventType, foodType, guests, budget, counters[], services[], and form fields. Keep the existing FAQS and PACKAGES arrays (repurpose for the sections below wizard).
+
+Build the wizard shell — Create a full-width wizard container with a gold progress bar / step-dot indicator at the top, animated step number label, and AnimatePresence wrapping each step component for slide-in/out transitions. Steps render conditionally based on step state.
+
+Implement Steps 1–4 — Step 1: 12 image cards grid (Unsplash event images, auto-advance on click). Step 2: 11 pill cards (manual Next). Step 3: custom range slider with snap-to-values and animated guest-count label. Step 4: 4 budget tier cards with price ranges and bullet features.
+
+Implement Steps 5–6 — Step 5: 9 multi-select live-counter cards with Unsplash food images and gold checkmark overlay on selection. Step 6: 8 multi-select checkbox cards with lucide icons.
+
+Implement Step 7 (form) and Step 8 (summary) — Step 7: glassmorphism form card with 7 fields and floating labels. Step 8: elegant summary layout listing all selections, estimated budget line, and 4 action buttons.
+
+Build success overlay — After "Request Quote" clicked on Step 8: render a fixed full-screen overlay with CSS confetti particles (keyframe animated <div> elements with random colors/delays), "Thank You" heading, subtitle, WhatsApp button, and "Back to Home" link.
+
+Add "Why Choose" + "How We Work" sections — 8 icon cards with gold glow + 5-step timeline with connector lines.
+
+Add Testimonials + Gallery sections — 4 review cards (cream bg to distinguish from homepage) + 9-image masonry grid with Unsplash URLs replacing the old 3-repeated-image gallery.
+
+Add Packages + FAQ sections — Repurpose/expand existing PACKAGES data for 3 event-type packages (Wedding, Corporate, Festival); keep existing FAQ accordion.
+
+Add CTA Banner + Contact + Map — Full-width dark CTA with 3 buttons; contact info cards (Phone, WhatsApp, Email, Address, Hours); Google Maps iframe embed.
+
+Relevant files
+artifacts/palagaram/src/pages/CateringPage.tsx
+artifacts/palagaram/src/components/sections/Navbar.tsx
+artifacts/palagaram/src/components/sections/Footer.tsx
+artifacts/palagaram/src/App.tsx
+artifacts/palagaram/public/hero-bg.png
+artifacts/palagaram/public/dosa.png
+artifacts/palagaram/public/kitchen.png
+
+
+
+idhudhan soliruku okay va paru
