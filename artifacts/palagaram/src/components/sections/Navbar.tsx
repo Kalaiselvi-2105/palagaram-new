@@ -30,6 +30,7 @@ export function Navbar() {
     { label: "Specials", href: isHome ? "#specials" : "/#specials" },
     { label: "Reviews", href: isHome ? "#reviews" : "/#reviews" },
     { label: "Contact", href: isHome ? "#contact" : "/#contact" },
+    { label: "Catering", href: "/catering" },
   ];
 
   return (

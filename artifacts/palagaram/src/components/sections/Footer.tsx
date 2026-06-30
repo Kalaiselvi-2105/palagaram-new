@@ -16,7 +16,7 @@ const REAL_LINKS = {
     { label: "Dine In", href: "/reservation" },
     { label: "Takeaway", href: "/menu" },
     { label: "Home Delivery", href: "/menu" },
-    { label: "Catering", href: "/#contact" },
+    { label: "Catering Services", href: "/catering" },
     { label: "Bulk Orders", href: "/#contact" },
     { label: "Table Reservation", href: "/reservation" },
   ],

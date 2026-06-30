@@ -12,6 +12,7 @@ import GalleryPage from "@/pages/Gallery";
 import ReservationPage from "@/pages/ReservationPage";
 import Checkout from "@/pages/Checkout";
 import OrderConfirmation from "@/pages/OrderConfirmation";
+import CateringPage from "@/pages/CateringPage";
 
 const queryClient = new QueryClient();
 
@@ -25,6 +26,7 @@ function Router() {
       <Route path="/reservation" component={ReservationPage} />
       <Route path="/checkout" component={Checkout} />
       <Route path="/order-confirmation" component={OrderConfirmation} />
+      <Route path="/catering" component={CateringPage} />
       <Route component={NotFound} />
     </Switch>
   );
