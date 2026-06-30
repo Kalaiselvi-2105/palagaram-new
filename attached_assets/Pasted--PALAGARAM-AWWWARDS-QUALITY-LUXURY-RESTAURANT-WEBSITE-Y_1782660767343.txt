@@ -1,0 +1,705 @@
+# PALAGARAM — AWWWARDS QUALITY LUXURY RESTAURANT WEBSITE
+
+You are an Award-Winning Creative Director, Luxury Restaurant Brand Designer, UI/UX Expert, Motion Designer, Food Photographer, 3D Artist, and Senior Full Stack Developer.
+
+Your mission is to build an **Awwwards-quality**, **cinematic**, **premium**, **luxury**, **warm**, **interactive**, and **storytelling** website for **PALAGARAM**, one of Chidambaram's iconic vegetarian restaurants.
+
+This should NOT feel like a typical restaurant website.
+
+Instead, the website should feel like entering an elegant dining experience where every scroll tells the story of authentic South Indian hospitality, traditional flavors, and unforgettable family moments.
+
+The experience must feel emotional, luxurious, modern, and memorable.
+
+---
+
+# DESIGN INSPIRATION
+
+Take inspiration from:
+
+• Apple
+• Leica
+• Awwwards Restaurant Websites
+• Michelin Star Restaurant Websites
+• Nobu
+• Starbucks Reserve
+• Four Seasons Dining
+• Squarespace Restaurant Portfolio
+
+Visitors should instantly feel
+
+🍽 Premium
+
+❤️ Authentic
+
+✨ Elegant
+
+🌿 Traditional
+
+🔥 Freshly Cooked
+
+👨‍👩‍👧 Family Friendly
+
+🌅 Warm Hospitality
+
+---
+
+# IMPORTANT
+
+First install UI UX Pro Max
+
+```bash
+npm install -g ui-ux-pro-max-cli
+
+uipro init --ai codex
+```
+
+Use
+
+• React
+• TypeScript
+• TailwindCSS
+• Framer Motion
+• GSAP
+• Lenis Smooth Scroll
+• Three.js
+• React Three Fiber
+• SwiperJS
+• React Hook Form
+• React Icons
+• Lucide React
+• Lottie React
+
+---
+
+# TYPOGRAPHY
+
+Use Poppins
+
+Elegant Editorial Typography
+
+Luxury spacing
+
+Large cinematic headings
+
+Minimal text
+
+Premium readability
+
+---
+
+# COLOR PALETTE
+
+Cream White
+#FAF8F5
+
+Traditional Ivory
+#F6F0E8
+
+Warm Sand
+#EADBC8
+
+Golden Brown
+#C89B5A
+
+Deep Coffee
+#4B352A
+
+Dark Charcoal
+#2D2D2D
+
+Fresh Leaf Green
+#3F6B45
+
+Glass Cards
+
+rgba(255,255,255,.72)
+
+Soft luxury shadows
+
+Warm gradients
+
+Premium lighting
+
+---
+
+# HERO SECTION ⭐⭐⭐⭐⭐
+
+Full Screen Hero
+
+Background
+
+Beautiful luxury restaurant interior.
+
+Warm hanging lights.
+
+Fresh banana leaves.
+
+Traditional brass lamps.
+
+Chef preparing dosa in slow motion.
+
+Steam rising from hot idlis.
+
+Filter coffee pouring in cinematic slow motion.
+
+Soft sunlight entering through windows.
+
+Traditional South Indian ambience.
+
+(Use demo food images for now. Images will be replaced later.)
+
+Headline
+
+## Every Meal Tells A Story.
+
+Subheadline
+
+Experience authentic vegetarian cuisine crafted with tradition, passion, and premium ingredients. From crispy dosas and aromatic biryanis to rich sweets and refreshing beverages, every dish is made to create unforgettable memories.
+
+Buttons
+
+Explore Menu
+
+Reserve Table
+
+Order Online
+
+Watch Our Story
+
+Floating Cards
+
+⭐ 4.8 Google Rating
+
+🍽 Premium Vegetarian Restaurant
+
+👨‍👩‍👧 Family Dining
+
+🥘 100+ Signature Dishes
+
+---
+
+# HERO ANIMATION ⭐⭐⭐⭐⭐
+
+Website Opens
+
+↓
+
+Black Fade
+
+↓
+
+Traditional Bell Sound (Muted)
+
+↓
+
+Kitchen Fire Lights Up
+
+↓
+
+Steam Appears
+
+↓
+
+Blur Focus Animation
+
+↓
+
+Warm Golden Light Fills Screen
+
+↓
+
+Restaurant Interior Appears
+
+↓
+
+Headline Reveals Word by Word
+
+↓
+
+CTA Buttons Animate
+
+↓
+
+Floating Glass Cards Fade In
+
+Everything should feel luxurious and cinematic.
+
+---
+
+# PREMIUM AMBIENT ANIMATIONS ⭐⭐⭐⭐⭐
+
+Create elegant restaurant ambience.
+
+✨ Floating spice particles
+
+☀ Warm sunlight rays
+
+🔥 Gentle kitchen fire glow
+
+🍃 Banana leaves moving softly
+
+☕ Coffee steam animation
+
+🥘 Steam rising from food
+
+💡 Hanging light movement
+
+🍽 Floating aroma effects
+
+🌅 Warm lighting transitions
+
+🎞 Very subtle film grain
+
+Never distract users.
+
+Everything should feel premium.
+
+---
+
+# PREMIUM GLASS NAVBAR
+
+Floating Glass Navigation
+
+Blur Background
+
+Rounded Corners
+
+Logo
+
+Home
+
+About
+
+Menu
+
+Specials
+
+Gallery
+
+Dining
+
+Reviews
+
+Contact
+
+Book Table
+
+Order Online
+
+Hover Glow
+
+Magnetic Buttons
+
+Smooth Underline Animation
+
+---
+
+# ABOUT PALAGARAM
+
+Tell the story of tradition, quality, hospitality, and authentic vegetarian cooking.
+
+Large editorial layout.
+
+Chef portraits.
+
+Kitchen visuals.
+
+Traditional cooking methods.
+
+Family values.
+
+Premium storytelling.
+
+---
+
+# SIGNATURE MENU EXPERIENCE ⭐⭐⭐⭐⭐
+
+Instead of a normal menu,
+
+Create an immersive food journey.
+
+Categories
+
+South Indian Breakfast
+
+Mini Tiffin
+
+Meals
+
+North Indian
+
+Chinese
+
+Tandoori
+
+Biryani
+
+Snacks
+
+Chats
+
+Sweets
+
+Desserts
+
+Juices
+
+Beverages
+
+Ice Cream
+
+Hover
+
+Steam Animation
+
+Slow Zoom
+
+Floating Ingredients
+
+Editorial Overlay
+
+View Dish
+
+Order Now
+
+---
+
+# FOOD STORY MODE ⭐⭐⭐⭐⭐
+
+Click any dish.
+
+Open cinematic full-screen experience.
+
+Large food images.
+
+Ingredients.
+
+Chef Notes.
+
+Preparation Story.
+
+Nutrition.
+
+Recommended Pairings.
+
+Customer Reviews.
+
+Magazine Layout.
+
+Infinite Scroll.
+
+---
+
+# SPECIAL COMBOS
+
+Interactive Combo Cards
+
+Breakfast Combo
+
+Family Meals
+
+Weekend Specials
+
+Festival Specials
+
+Kids Combo
+
+Healthy Meals
+
+Chef Recommendations
+
+Today's Specials
+
+---
+
+# LIVE KITCHEN EXPERIENCE
+
+Background kitchen video.
+
+Chef preparing food.
+
+Slow cinematic shots.
+
+Muted autoplay.
+
+Hover to play with sound.
+
+---
+
+# WHY CHOOSE PALAGARAM
+
+Luxury Glass Cards
+
+Fresh Ingredients
+
+100% Vegetarian
+
+Traditional Recipes
+
+Modern Kitchen
+
+Premium Hygiene
+
+Family Friendly
+
+Fast Service
+
+Online Ordering
+
+Experienced Chefs
+
+Air Conditioned Dining
+
+Excellent Hospitality
+
+---
+
+# CUSTOMER EXPERIENCE
+
+Timeline
+
+Reserve Table
+
+↓
+
+Arrival
+
+↓
+
+Fresh Welcome Drink
+
+↓
+
+Food Served
+
+↓
+
+Dessert
+
+↓
+
+Feedback
+
+↓
+
+Visit Again
+
+---
+
+# TESTIMONIALS
+
+Elegant Carousel
+
+Customer Photos
+
+Video Reviews
+
+Google Inspired Cards
+
+5-Star Animations
+
+---
+
+# GALLERY
+
+Pinterest Masonry Layout
+
+Kitchen
+
+Restaurant
+
+Food
+
+Events
+
+Chef
+
+Traditional Moments
+
+Festival Specials
+
+Family Dining
+
+Lightbox
+
+Category Filters
+
+Smooth Transitions
+
+---
+
+# PRIVATE DINING & EVENTS
+
+Birthday Parties
+
+Corporate Meetings
+
+Family Gatherings
+
+Festival Catering
+
+Outdoor Catering
+
+Bulk Orders
+
+Custom Packages
+
+---
+
+# ONLINE TABLE BOOKING
+
+Multi-Step Booking
+
+Number of Guests
+
+↓
+
+Date
+
+↓
+
+Time
+
+↓
+
+Dining Preference
+
+↓
+
+Special Request
+
+↓
+
+Confirmation
+
+Generate PDF Reservation
+
+---
+
+# CONTACT
+
+Interactive Google Map
+
+WhatsApp
+
+Call
+
+Email
+
+Restaurant Address
+
+Working Hours
+
+Book Table
+
+---
+
+# FOOTER
+
+Luxury Minimal Design
+
+Quick Links
+
+Menu
+
+Gallery
+
+Reviews
+
+Instagram
+
+YouTube
+
+Facebook
+
+WhatsApp
+
+Newsletter
+
+Copyright
+
+---
+
+# PREMIUM MICRO INTERACTIONS
+
+• Floating aroma animations.
+
+• Steam follows hot dishes.
+
+• Lens blur while changing sections.
+
+• Food cards gently lift on hover.
+
+• Glass cards catch moving light.
+
+• Cursor glow near dishes.
+
+• Soft ripple buttons.
+
+• Luxury page transitions.
+
+• Cinematic scroll effects.
+
+• Premium loading animations.
+
+---
+
+# EXCLUSIVE FEATURES ⭐⭐⭐⭐⭐
+
+Interactive Food Menu
+
+3D Rotating Signature Dish
+
+Virtual Restaurant Tour
+
+Chef Story Timeline
+
+AI Dish Recommendation
+
+Live Table Availability
+
+Online Booking
+
+Order Tracking
+
+Festival Specials
+
+Combo Builder
+
+Nutrition Information
+
+Favorite Dishes
+
+Download Digital Menu
+
+Floating WhatsApp Ordering
+
+Glassmorphism UI
+
+Framer Motion Everywhere
+
+SEO Optimized
+
+Accessibility 100
+
+Performance 95+
+
+Fully Responsive
+
+---
+
+# IMAGE NOTE
+
+For development, use high-quality demo restaurant and food images as placeholders.
+
+The final production website should allow all images and videos to be easily replaced with original PALAGARAM restaurant photos, food photography, interiors, chefs, branding, and promotional videos without changing the layout or animations.
+
+---
+
+# FINAL GOAL
+
+Create a world-class luxury restaurant website that feels like watching a beautifully directed food documentary rather than browsing a restaurant menu.
+
+Every animation, transition, interaction, and scroll should celebrate authentic South Indian hospitality, premium vegetarian cuisine, emotional storytelling, and timeless dining experiences.
+
+The final website should be worthy of an Awwwards showcase and position PALAGARAM as one of the finest premium vegetarian restaurants in Tamil Nadu.

@@ -1,0 +1,73 @@
+I have uploaded a new logo and multiple real restaurant images to my GitHub repository.
+
+Please check my GitHub project and update the website using only the uploaded assets.
+
+Requirements:
+
+1. LOGO UPDATE
+- Replace the existing logo everywhere with the uploaded logo.
+- Use the uploaded logo in:
+  - Navbar
+  - Footer
+  - Favicon
+  - Loading/Splash screen (if available)
+  - Any other place where the current logo appears.
+- Do not redesign or recreate the logo.
+- Keep the logo in its original quality and proportions.
+- Ensure it is responsive and looks sharp on desktop, tablet, and mobile.
+
+2. USE THE UPLOADED RESTAURANT IMAGES
+- Use the uploaded real restaurant images throughout the homepage and other relevant sections.
+- Do NOT use placeholder images, stock photos, AI-generated images, or blank image cards.
+- Only use the images available in my GitHub repository.
+
+3. HERO SECTION
+- Use the restaurant building/group photo as the main hero background or hero image.
+- Add a premium dark overlay so the text remains readable.
+- Keep the current luxury design.
+- Add subtle animations without affecting performance.
+
+4. ABOUT / OUR STORY
+- Replace the existing image with the uploaded restaurant photo.
+- Showcase the real restaurant, customers, and dining experience.
+- Keep the layout elegant and premium.
+
+5. EXPERIENCE / GALLERY
+- Use the uploaded customer dining images to create a beautiful gallery.
+- Display the images in a modern grid or masonry layout.
+- Add smooth hover and zoom effects.
+
+6. WHY CHOOSE PALAGARAM
+- Use the uploaded real restaurant photos wherever appropriate.
+- Highlight the restaurant's authenticity, hospitality, cleanliness, quality, and tradition.
+
+7. CUSTOMER EXPERIENCE
+- Replace any fake or placeholder customer images with the uploaded real customer photos.
+- Showcase real dining moments.
+
+8. REMOVE PLACEHOLDERS
+- Remove every blank image.
+- Remove broken images.
+- Remove dummy images.
+- Remove low-quality placeholder graphics.
+
+9. KEEP EXISTING DESIGN
+- Do NOT change the existing color palette.
+- Do NOT redesign the website.
+- Only improve it by replacing assets with the uploaded real logo and images.
+
+10. IMAGE OPTIMIZATION
+- Optimize every uploaded image for fast loading.
+- Use responsive images.
+- Preserve image quality.
+
+11. FINAL VERIFICATION
+- Run the project.
+- Verify every page.
+- Ensure every uploaded image is displayed correctly.
+- Ensure the new logo appears everywhere.
+- Fix any broken image paths automatically.
+- Make sure there are no missing assets or placeholders remaining.
+
+Important:
+Only use the logo and images that I uploaded to my GitHub repository. Do not use any external or placeholder images. Replace every old asset with the new uploaded assets while maintaining the premium look and feel of the website.

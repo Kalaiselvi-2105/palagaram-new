@@ -1,0 +1,112 @@
+Replace all placeholder information in the website footer with the real Palagaram restaurant details.
+
+Do not use dummy content anymore.
+
+Update the footer with the following real business information.
+
+========================
+RESTAURANT DETAILS
+========================
+
+Restaurant Name:
+Palagaram.com
+
+Tagline:
+High Class Pure Veg Restaurant
+
+Address:
+156 West Car Street,
+Chidambaram,
+Tamil Nadu - 608001,
+India
+
+Phone:
++91 4144 224 228
+
+Business Hours:
+Open Daily
+7:00 AM – 10:45 PM
+
+Cuisine:
+Authentic South Indian Vegetarian Restaurant
+
+========================
+FOOTER CONTENT
+========================
+
+Quick Links
+- Home
+- About
+- Menu
+- Gallery
+- Specials
+- Reviews
+- Contact
+
+Services
+- Dine In
+- Takeaway
+- Home Delivery
+- Catering
+- Bulk Orders
+- Table Reservation
+
+Connect With Us
+- Instagram
+- Facebook
+- YouTube
+- Google Maps
+- Contact
+
+========================
+GOOGLE MAP
+========================
+
+Embed the real Google Map of Palagaram.com (156 West Car Street, Chidambaram, Tamil Nadu 608001).
+
+Add a responsive embedded Google Map above or beside the footer.
+
+Also add a "Get Directions" button that opens Google Maps in a new tab.
+
+========================
+SOCIAL MEDIA
+========================
+
+Use the real social media links wherever available.
+
+Instagram:
+https://www.instagram.com/palagaram.com_/
+
+Replace any placeholder social links with the real ones.
+
+========================
+CONTACT SECTION
+========================
+
+Display:
+
+📍 156 West Car Street, Chidambaram, Tamil Nadu 608001
+
+📞 +91 4144 224 228
+
+🕒 Open Daily: 7:00 AM – 10:45 PM
+
+========================
+COPYRIGHT
+========================
+
+© 2026 Palagaram.com. All Rights Reserved.
+
+Designed with ❤️ for Palagaram.
+
+========================
+IMPORTANT
+========================
+
+- Remove every placeholder address.
+- Remove every fake phone number.
+- Remove dummy opening hours.
+- Remove placeholder map.
+- Replace everything with the real restaurant details.
+- Make the footer premium, elegant, responsive and production-ready.
+- Do not change the existing color theme or overall design.

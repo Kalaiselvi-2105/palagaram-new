@@ -1,0 +1,137 @@
+# PREMIUM LOADING EXPERIENCE (VERY IMPORTANT)
+
+I want a beautiful, premium loading screen for PALAGARAM.COM.
+
+Do NOT use a generic loading spinner.
+
+Do NOT use a simple progress bar.
+
+Do NOT use a basic loading animation.
+
+The loading experience should immediately create a premium first impression.
+
+--------------------------------------------------
+LOADING SEQUENCE
+--------------------------------------------------
+
+Website Opens
+
+↓
+
+Soft dark background with warm brown and gold tones
+
+↓
+
+Subtle floating spice particles
+
+↓
+
+Very light steam animation (representing freshly prepared South Indian food)
+
+↓
+
+My official PALAGARAM logo fades in smoothly
+
+(Use ONLY my official logo. Never replace it.)
+
+↓
+
+A warm golden glow slowly appears behind the logo
+
+↓
+
+Display the text:
+
+"Serving Tradition Since 1985"
+
+↓
+
+Then display a beautiful Tamil tagline:
+
+"நம்பி வாங்க... திருப்தியா சாப்பிட்டு போங்க."
+
+↓
+
+A subtle animated banana leaf pattern or traditional South Indian inspired texture should appear softly in the background.
+
+Do NOT make it distracting.
+
+↓
+
+A premium loading indicator should appear.
+
+Instead of a normal spinner,
+
+create a custom loading animation inspired by South Indian hospitality.
+
+Examples:
+
+• A golden serving plate slowly fills.
+• A warm filter coffee aroma effect.
+• Soft steam rising.
+• A rotating traditional brass plate.
+• Gentle glowing spice particles.
+
+Choose the most elegant option.
+
+↓
+
+When loading completes,
+
+the logo gently scales down,
+
+the background fades,
+
+and the Hero section should smoothly reveal itself.
+
+--------------------------------------------------
+ANIMATION STYLE
+--------------------------------------------------
+
+Everything should be:
+
+• Smooth
+• Slow
+• Cinematic
+• Premium
+• Elegant
+• Warm
+• Luxury
+
+No flashy effects.
+
+No harsh transitions.
+
+--------------------------------------------------
+PERFORMANCE
+--------------------------------------------------
+
+The loading screen should appear only while the website assets are loading.
+
+Once loading is complete,
+
+it should disappear automatically with a smooth transition.
+
+Do not increase loading time unnecessarily.
+
+Optimize the animation for desktop and mobile devices.
+
+--------------------------------------------------
+IMPORTANT
+--------------------------------------------------
+
+This loading screen should feel unique to PALAGARAM.
+
+It should remind customers of:
+
+Freshly prepared food.
+
+Warm hospitality.
+
+Traditional South Indian heritage.
+
+Luxury dining.
+
+The first impression should immediately communicate:
+
+"This is not just a restaurant... this is an experience."

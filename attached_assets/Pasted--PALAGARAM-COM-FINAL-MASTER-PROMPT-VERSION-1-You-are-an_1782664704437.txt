@@ -1,0 +1,837 @@
+# PALAGARAM.COM — FINAL MASTER PROMPT (VERSION 1)
+
+You are an Award-Winning Creative Director, Brand Strategist, Luxury UI/UX Designer, Motion Designer, Restaurant Experience Designer, Senior Frontend Engineer, Full Stack Developer, SEO Expert, and Digital Storytelling Specialist.
+
+Your mission is to redesign **PALAGARAM.COM** into one of the finest restaurant websites in India.
+
+This must NOT feel like a normal restaurant website.
+
+It must feel like a luxury dining experience where every scroll tells a story about tradition, family, hospitality, and unforgettable food.
+
+The website should be elegant, premium, emotional, cinematic, interactive, modern, mobile-first, SEO optimized, and worthy of an **Awwwards** showcase.
+
+The overall experience should make visitors instantly feel hungry, emotionally connected, and excited to visit PALAGARAM.
+
+---
+
+# DESIGN STYLE
+
+Luxury
+
+Warm
+
+Traditional
+
+Modern
+
+Minimal
+
+Editorial
+
+Premium
+
+Elegant
+
+Timeless
+
+Glassmorphism
+
+Storytelling
+
+Cinematic
+
+---
+
+# TECHNOLOGY
+
+Use
+
+React
+
+TypeScript
+
+TailwindCSS
+
+Framer Motion
+
+GSAP
+
+Lenis Smooth Scroll
+
+SwiperJS
+
+React Hook Form
+
+React Icons
+
+Lucide React
+
+Three.js (only where necessary)
+
+Lottie
+
+Performance Optimized
+
+Accessibility 100
+
+SEO Optimized
+
+Mobile First
+
+---
+
+# IMPORTANT BRAND RULE
+
+This website represents a real restaurant.
+
+Everything should feel authentic.
+
+Never create fake-looking sections.
+
+Never create AI-looking layouts.
+
+Never make it look like a template.
+
+Everything must feel handcrafted and premium.
+
+---
+
+# BRANDING ASSETS (VERY IMPORTANT)
+
+Never replace my branding assets.
+
+I will manually provide
+
+• Official Logo
+
+• Favicon
+
+• Hero Banner
+
+• Homepage Banner
+
+• Restaurant Front Building Image
+
+• Interior Images
+
+• Owner Photos
+
+• Team Photos
+
+• Promotional Posters
+
+• Festival Posters
+
+• Certificates
+
+• Awards
+
+• Instagram Content
+
+• Google Review Images
+
+Only use my branding files.
+
+Never replace them.
+
+Never crop important parts.
+
+Never generate alternatives.
+
+Only use temporary demo images where branding images are still missing.
+
+---
+
+# HERO SECTION CHANGES
+
+Current Hero section must be improved.
+
+Navbar is difficult to read because of the background.
+
+Fix it completely.
+
+Requirements
+
+Navigation should be crystal clear.
+
+Increase text contrast.
+
+Improve overlay.
+
+Improve blur.
+
+Improve readability.
+
+Navigation should always be visible without scrolling.
+
+Replace current Hero background with the HD PALAGARAM front building image that I will provide later.
+
+Replace current text logo with my official PALAGARAM logo.
+
+Do not redesign the logo.
+
+Use it exactly as provided.
+
+Hero background should slowly zoom.
+
+Warm sunlight effect.
+
+Premium cinematic appearance.
+
+---
+
+# HERO TAGLINE
+
+Below the main heading, include a memorable Tamil brand tagline.
+
+Example inspiration
+
+"நம்பி வாங்க... திருப்தியா சாப்பிட்டு போங்க."
+
+or another warm, friendly, memorable tagline suitable for PALAGARAM.
+
+The tagline should feel natural, welcoming, and unique.
+
+---
+
+# KEEP EXISTING GOOD SECTIONS
+
+Retain and improve
+
+Legacy Section
+
+About Section
+
+Reservation Section
+
+Footer
+
+Improve spacing, typography, animations, and responsiveness.
+
+Do not remove them.
+
+---
+
+# MENU STRUCTURE
+
+Replace the demo menu with the actual menu that I will provide.
+
+Homepage should NOT display every dish.
+
+Homepage should display only elegant category cards.
+
+Categories
+
+Starters
+
+Soups
+
+North Indian Curry
+
+Dal Special
+
+Rice & Biryani
+
+Meals
+
+Indian Breads
+
+Raita & Salad
+
+Chinese
+
+Beverages
+
+Desserts
+
+Each category card should include
+
+Large HD image
+
+Elegant hover
+
+Glass effect
+
+Small description
+
+Explore button
+
+Clicking a category opens a beautiful menu experience.
+
+Every dish should contain
+
+Image
+
+Name
+
+Description
+
+Price
+
+Veg Badge
+
+Best Seller Badge (where applicable)
+
+Chef Recommendation Badge (where applicable)
+
+Spice Level
+
+---
+
+# FEATURED DISHES
+
+Homepage should include a separate "Chef's Signature" section.
+
+Highlight
+
+Paneer Butter Masala
+
+Veg Dum Biryani
+
+Gobi 65
+
+Paneer Tikka
+
+Butter Naan
+
+Dal Tadka
+
+Mini Meals
+
+Fresh Lime Juice
+
+Large premium cards.
+
+Slow hover animation.
+
+---
+
+# MENU SEARCH EXPERIENCE
+
+Add
+
+Instant Search
+
+Category Filters
+
+Breakfast
+
+Lunch
+
+Dinner
+
+Kids
+
+Healthy
+
+Chef Special
+
+Best Seller
+
+Festival Specials
+
+Typing should instantly suggest matching dishes.
+
+---
+
+# INSTAGRAM SECTION
+
+Create a beautiful Instagram section using my official Instagram account.
+
+Account
+
+palagaram.com_
+
+Display
+
+10.3K+ Followers
+
+1600+ Posts
+
+Profile Description
+
+🌿 Pure Vegetarian Multi-Cuisine
+
+🍛 Rich Flavours • Freshly Cooked
+
+🤍 Taste That Feels Like Home
+
+📍 Chidambaram | Near Nataraja Temple
+
+Include
+
+Latest Posts
+
+Latest Reels
+
+Food Gallery
+
+Festival Posts
+
+Customer Stories
+
+Instagram Follow Button
+
+---
+
+# IMAGE SOURCING
+
+Use only high-quality royalty-free real photographs.
+
+Preferred sources
+
+Unsplash
+
+Pexels
+
+Pixabay
+
+Wikimedia Commons
+
+Commercial-use licensed images
+
+Every food item should have its own image whenever possible.
+
+Do NOT use
+
+AI-generated food
+
+Watermarked images
+
+Low quality images
+
+Placeholder images
+
+Repeated images
+
+Optimize every image
+
+WebP
+
+Responsive
+
+Lazy Loading
+
+Blur Placeholder
+
+SEO Friendly
+
+Fast Loading
+
+---
+
+# IMAGE FOLDER STRUCTURE
+
+/public/images/
+
+hero
+
+banner
+
+logo
+
+gallery
+
+menu
+
+starters
+
+soups
+
+north-indian
+
+dal
+
+rice-biryani
+
+meals
+
+breads
+
+raita-salad
+
+chinese
+
+beverages
+
+desserts
+
+featured
+
+promotions
+
+events
+
+festival
+
+team
+
+interior
+
+---
+
+# CINEMATIC EXPERIENCE
+
+Website opening animation
+
+Black screen
+
+↓
+
+Traditional Bell
+
+↓
+
+Soft Steam
+
+↓
+
+Logo Appears
+
+↓
+
+Serving Happiness Since 1985
+
+↓
+
+Hero appears
+
+↓
+
+Headline animation
+
+↓
+
+Navigation animation
+
+↓
+
+CTA animation
+
+Everything smooth.
+
+Everything premium.
+
+---
+
+# TODAY'S SPECIAL
+
+Create a live section.
+
+Today's Chef Recommendation
+
+Fresh Today
+
+Limited Quantity
+
+Trending Dish
+
+Chef Pick
+
+Beautiful premium cards.
+
+---
+
+# LIVE KITCHEN
+
+Create an immersive section.
+
+Chef making dosa.
+
+Filter coffee pouring.
+
+Fresh chapati.
+
+Steam.
+
+Kitchen sounds (Muted).
+
+Slow cinematic motion.
+
+---
+
+# CUSTOMER FAVORITES
+
+Top Ordered
+
+Trending
+
+Family Favorite
+
+Kids Favorite
+
+Healthy Choice
+
+Festival Favorite
+
+Show beautiful counters.
+
+---
+
+# FOOD STORY
+
+Every signature dish should include
+
+Origin
+
+Ingredients
+
+Cooking Method
+
+Chef Tips
+
+Best Pairing
+
+Spice Level
+
+Preparation Time
+
+---
+
+# AI FOOD GUIDE
+
+Ask visitors
+
+Spicy or Mild
+
+Breakfast or Dinner
+
+Kids or Adults
+
+Healthy or Treat
+
+Then recommend dishes.
+
+---
+
+# SPICE LEVEL
+
+Every dish should display
+
+🌶 Mild
+
+🌶🌶 Medium
+
+🌶🌶🌶 Spicy
+
+🌶🌶🌶🌶 Extra Spicy
+
+---
+
+# LIVE REVIEWS
+
+Google Reviews
+
+Instagram Reviews
+
+Video Reviews
+
+Customer Photos
+
+Beautiful carousel.
+
+---
+
+# CUSTOMER MEMORIES
+
+Family Photos
+
+Birthday Celebration
+
+Anniversary
+
+Festival Moments
+
+Happy Customers
+
+Gallery Wall
+
+---
+
+# 360° EXPERIENCE
+
+Restaurant Tour
+
+Entrance
+
+Dining
+
+Kitchen
+
+Family Hall
+
+Parking
+
+---
+
+# TABLE STATUS
+
+Show
+
+Tables Available
+
+Few Left
+
+Busy
+
+Estimated Waiting Time
+
+---
+
+# FLOATING BUTTONS
+
+WhatsApp
+
+Call
+
+Directions
+
+Instagram
+
+Reserve Table
+
+Back To Top
+
+Sticky on every page.
+
+---
+
+# FOOD OF THE MONTH
+
+Highlight one premium signature dish.
+
+Story.
+
+Offer.
+
+Chef Recommendation.
+
+---
+
+# MINI REWARDS
+
+Spin & Win
+
+Scratch Coupon
+
+Festival Offers
+
+Membership
+
+Birthday Rewards
+
+---
+
+# SOCIAL WALL
+
+Instagram
+
+YouTube
+
+Customer Stories
+
+Food Videos
+
+Auto-updating layout.
+
+---
+
+# KIDS CORNER
+
+Kids Menu
+
+Birthday Packages
+
+Family Friendly
+
+High Chair
+
+Kids Special Meals
+
+---
+
+# ECO FRIENDLY
+
+Fresh Ingredients
+
+Local Farmers
+
+Minimal Waste
+
+Eco Packaging
+
+Sustainability Story
+
+---
+
+# CONTACT
+
+Interactive Google Map
+
+WhatsApp
+
+Call
+
+Email
+
+Address
+
+Opening Hours
+
+Reservation
+
+---
+
+# FOOTER
+
+Luxury
+
+Minimal
+
+Instagram
+
+Facebook
+
+YouTube
+
+Google Maps
+
+Quick Links
+
+Newsletter
+
+Copyright
+
+---
+
+# MICRO INTERACTIONS
+
+Glass reflections
+
+Steam animation
+
+Soft cursor glow
+
+Food hover zoom
+
+Lens blur transitions
+
+Floating spice particles
+
+Warm lighting changes
+
+Premium scroll animations
+
+---
+
+# FINAL OBJECTIVE
+
+When a customer opens PALAGARAM.COM, they should immediately feel:
+
+"This is not just a restaurant... this is an experience."
+
+The website should create trust, excitement, hunger, emotional connection, and a strong desire to visit PALAGARAM with family and friends.
+
+Every section should be thoughtfully designed, visually stunning, highly interactive, responsive, and optimized for performance.
+
+The final website should look like it belongs to a premium international restaurant brand while preserving PALAGARAM's authentic South Indian identity, traditions, warmth, and hospitality.

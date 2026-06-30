@@ -1,0 +1,263 @@
+# PREMIUM MENU NAVIGATION EXPERIENCE ⭐⭐⭐⭐⭐
+
+Do NOT create a simple restaurant menu.
+
+Build a premium, immersive, multi-level menu browsing experience similar to luxury restaurant websites.
+
+The menu should be organized as follows:
+
+Homepage
+
+↓
+
+Menu Categories
+
+↓
+
+Category Page
+
+↓
+
+Dish Details
+
+↓
+
+Reservation / Enquiry
+
+---
+
+## MENU HOMEPAGE
+
+Do NOT display every dish on the homepage.
+
+Display only beautiful premium category cards.
+
+Categories
+
+🥗 Starters
+
+🍲 Soups
+
+🥘 North Indian Curry
+
+🍛 Dal Special
+
+🍚 Rice & Biryani
+
+🍱 Meals
+
+🫓 Indian Breads
+
+🥗 Raita & Salad
+
+🌶 Chinese
+
+🥤 Beverages
+
+🍨 Desserts
+
+Each category card should include
+
+• Large HD Category Image
+
+• Category Name
+
+• Short Description
+
+• Number of Dishes Available
+
+• Elegant Hover Animation
+
+• Glassmorphism Card
+
+• Explore Menu Button
+
+---
+
+## CATEGORY PAGE EXPERIENCE
+
+Clicking a category should navigate to a dedicated premium page.
+
+Example URLs
+
+/menu/starters
+
+/menu/soups
+
+/menu/north-indian
+
+/menu/meals
+
+/menu/rice-biryani
+
+Each page should have
+
+Large Hero Banner
+
+Category Title
+
+Beautiful Introduction
+
+Search Bar
+
+Sort Options
+
+Filter Options
+
+Animated Breadcrumb Navigation
+
+Sticky Category Navigation
+
+Smooth Page Transitions
+
+---
+
+## DISH CARDS
+
+Every dish should have its own premium card.
+
+Each card must include
+
+Professional HD Image
+
+Dish Name
+
+Short Description
+
+Price
+
+Veg Icon
+
+Best Seller Badge
+
+Chef Special Badge
+
+New Arrival Badge (if applicable)
+
+Spice Level
+
+Preparation Time
+
+Hover Animation
+
+Quick View Button
+
+View Details Button
+
+---
+
+## DISH DETAILS PAGE / MODAL
+
+Clicking any dish should open a premium experience.
+
+Include
+
+Large Hero Image
+
+Multiple Gallery Images
+
+Detailed Description
+
+Ingredients
+
+Preparation Method
+
+Chef Recommendation
+
+Health Information
+
+Spice Meter
+
+Recommended Pairings
+
+Customer Reviews
+
+Related Dishes
+
+Back Button
+
+Reserve Table Button
+
+WhatsApp Enquiry Button
+
+---
+
+## MENU FILTERS
+
+Allow customers to filter dishes by
+
+Breakfast
+
+Lunch
+
+Dinner
+
+Kids
+
+Healthy
+
+Jain
+
+No Onion No Garlic
+
+Chef Special
+
+Best Seller
+
+Festival Specials
+
+Spicy
+
+Mild
+
+Medium
+
+Price Range
+
+---
+
+## LIVE SEARCH
+
+Searching should instantly display matching dishes.
+
+Search should work for
+
+Dish Name
+
+Ingredients
+
+Category
+
+Keywords
+
+Popular Searches
+
+Instant Suggestions
+
+---
+
+## MENU QUICK NAVIGATION
+
+Add a sticky floating menu navigator.
+
+Customers should be able to jump directly to any category with one click.
+
+Highlight the active category while scrolling.
+
+---
+
+## RECOMMENDED DISHES
+
+At the bottom of every category page, display
+
+"You May Also Like"
+
+Show dishes from other categories with premium cards.
+
+---
+
+## MENU EXPERIENCE GOAL
+
+Browsing the menu should feel like exploring a premium food magazine rather than reading a simple restaurant menu.
+
+Every category, every dish, and every interaction should encourage visitors to continue exploring the menu and ultimately visit PALAGARAM.

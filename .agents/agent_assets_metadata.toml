@@ -1,0 +1,20 @@
+uploads = []
+outputs = []
+
+[[generated]]
+id = "UD5-JEv35zEbJv12YQvid"
+uri = "file://artifacts/palagaram/public/hero-bg.png"
+type = "image"
+title = "luxurious South Indian feast"
+
+[[generated]]
+id = "EjBsG_rZRZSIT4tHjIdKB"
+uri = "file://artifacts/palagaram/public/dosa.png"
+type = "image"
+title = "dosa with sambar"
+
+[[generated]]
+id = "QX_EFjyOzRe_l-bN-CEdO"
+uri = "file://artifacts/palagaram/public/kitchen.png"
+type = "image"
+title = "chef preparing dosa"

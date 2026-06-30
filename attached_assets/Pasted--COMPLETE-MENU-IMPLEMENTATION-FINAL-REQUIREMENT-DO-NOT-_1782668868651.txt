@@ -1,0 +1,441 @@
+# COMPLETE MENU IMPLEMENTATION (FINAL REQUIREMENT - DO NOT SKIP)
+
+This is one of the most important parts of the website.
+
+Do NOT build a simple restaurant menu.
+
+Build a premium, production-ready digital menu experience similar to Michelin-star restaurants and premium food ordering platforms.
+
+I have already provided the complete PALAGARAM menu.
+
+You MUST use every single menu item exactly as provided.
+
+## STRICT RULES
+
+* Do NOT skip any dish.
+* Do NOT remove any dish.
+* Do NOT rename any dish.
+* Do NOT invent new dishes.
+* Do NOT change the category structure.
+* Organize every dish exactly under its correct category.
+* The menu must be data-driven and easy to update later.
+
+---
+
+# HOMEPAGE MENU
+
+The Homepage must remain clean and elegant.
+
+Do NOT display all dishes on the Homepage.
+
+Instead, display only **11 premium menu category cards**.
+
+Categories:
+
+🥗 Starters (Veg Starters)
+
+🍲 Soups
+
+🥘 North Indian Curry
+
+🍛 Dal Special
+
+🍚 Rice & Biryani
+
+🍱 Meals
+
+🫓 Indian Breads
+
+🥗 Raita & Salad
+
+🌶 Chinese
+
+🥤 Beverages
+
+🍨 Desserts
+
+Every category card must contain:
+
+* Large HD category image
+* Category name
+* Short description
+* Total number of dishes
+* "Explore Menu" button
+* Premium glassmorphism overlay
+* Elegant hover animation
+* Soft shadow
+* Smooth scale animation
+* Mobile responsive design
+
+**Do NOT use plain gradient cards or solid color backgrounds.**
+
+Use real HD food photography for every category.
+
+Examples:
+
+* Starters → Crispy Gobi / Paneer Tikka Platter
+* Soups → Creamy Sweet Corn Soup
+* North Indian → Paneer Butter Masala
+* Dal → Dal Tadka
+* Rice & Biryani → Veg Dum Biryani
+* Meals → South Indian Veg Meals
+* Indian Breads → Butter Naan Basket
+* Raita & Salad → Fresh Vegetable Salad
+* Chinese → Hakka Noodles
+* Beverages → Fresh Lime Juice / Milkshake
+* Desserts → Gulab Jamun with Ice Cream
+
+---
+
+# CATEGORY PAGE
+
+When a customer clicks any category card,
+
+open a dedicated category page.
+
+Example:
+
+Homepage
+
+↓
+
+Menu
+
+↓
+
+Starters
+
+↓
+
+Starters Category Page
+
+The category page must NOT be empty.
+
+It must contain **every single dish** belonging to that category.
+
+Nothing should be missing.
+
+---
+
+# DISH CARDS
+
+Every menu item should be displayed inside beautiful premium cards.
+
+Each card must contain:
+
+✅ Unique HD Food Image
+
+✅ Dish Name
+
+✅ Short Professional Description
+
+✅ Actual Price (from my menu)
+
+✅ Pure Veg Symbol
+
+✅ Category Name
+
+✅ Chef Special Badge (if applicable)
+
+✅ Best Seller Badge (if applicable)
+
+✅ Spice Level
+
+✅ Preparation Time
+
+✅ Hover Animation
+
+✅ View Details Button
+
+✅ Future Ready "Order Now" Button
+
+Do NOT create text-only menu cards.
+
+Every dish must have a food photograph.
+
+---
+
+# COMPLETE MENU CATEGORIES
+
+## 1. Starters
+
+Category Banner Image:
+
+Crispy Gobi / Paneer Tikka Platter
+
+Items:
+
+* Gobi 65
+* Chilli Gobi
+* Crispy Gobi
+* Chilli Paneer
+* Paneer 65
+* Paneer Tikka
+* Paneer Achari Tikka
+* Paneer Malai Tikka
+* Veg Spring Roll
+* Veg Cutlet
+* Veg Manchurian Dry
+* Baby Corn Pepper Fry
+* Chilli Baby Corn
+* Crispy Baby Corn
+* Mushroom 65
+* Mushroom Pepper Fry
+* Chilli Mushroom
+
+---
+
+## 2. Soups
+
+Category Banner:
+
+Creamy Sweet Corn Soup
+
+Items:
+
+* Veg Sweet Corn Soup
+* Tomato Soup
+* Hot & Sour Soup
+* Manchow Soup
+* Mushroom Soup
+
+---
+
+## 3. North Indian Curry
+
+Category Banner:
+
+Paneer Butter Masala
+
+Paneer:
+
+* Paneer Butter Masala
+* Kadai Paneer
+* Palak Paneer
+* Paneer Tikka Masala
+* Paneer Lababdar
+* Paneer Kolhapuri
+* Paneer Jalfrezi
+* Paneer Do Pyaza
+* Paneer Punjabi
+* Paneer Angara
+* Paneer Bhurji
+
+Vegetable:
+
+* Mixed Vegetable Curry
+* Navarathna Kuruma
+* Veg Jalfrezi
+* Veg Kolhapuri
+* Veg Safed
+* Baby Corn Masala
+* Corn Masala
+* Green Peas Masala
+* Channa Masala
+* Kaju Masala
+* Bhindi Masala
+* Bhindi Fry
+* Stuffed Tomato Gravy
+
+---
+
+## 4. Dal Special
+
+Category Banner:
+
+Dal Tadka
+
+Items:
+
+* Dal Fry
+* Dal Tadka
+* Dal Makhani
+* Dal Palak
+* Dal Panchratna
+
+---
+
+## 5. Rice & Biryani
+
+Category Banner:
+
+Veg Dum Biryani
+
+Items:
+
+* Veg Dum Biryani
+* Hyderabadi Biryani
+* Kashmiri Pulao
+* Paneer Pulao
+* Peas Pulao
+* Veg Pulao
+* Steam Rice
+* Jeera Rice
+* Masala Rice
+
+---
+
+## 6. Meals
+
+Category Banner:
+
+South Indian Veg Meals
+
+Items:
+
+* Veg Meals
+* Mini Meals
+* Bombay Meals
+* Executive Meals
+
+---
+
+## 7. Indian Breads
+
+Category Banner:
+
+Butter Naan Basket
+
+Items:
+
+* Butter Naan
+* Plain Naan
+* Garlic Naan
+* Kulcha
+* Butter Kulcha
+* Parotta
+* Chapati
+* Tandoori Roti
+* Butter Roti
+
+---
+
+## 8. Raita & Salad
+
+Category Banner:
+
+Fresh Vegetable Salad
+
+Items:
+
+* Onion Raita
+* Cucumber Raita
+* Mix Veg Raita
+* Boondi Raita
+* Pineapple Raita
+* Green Salad
+* Veg Salad
+* Russian Salad
+* Fruit Salad
+* Paneer Salad
+
+---
+
+## 9. Chinese
+
+Category Banner:
+
+Hakka Noodles with Manchurian
+
+Items:
+
+* Veg Fried Rice
+* Schezwan Fried Rice
+* Veg Noodles
+* Hakka Noodles
+* Schezwan Noodles
+* Gobi Manchurian
+* Paneer Manchurian
+* Mushroom Manchurian
+
+---
+
+## 10. Beverages
+
+Category Banner:
+
+Fresh Lime Juice & Milkshake
+
+Items:
+
+* Fresh Lime
+* Lemon Soda
+* Lassi
+* Buttermilk
+* Milkshake
+* Soft Drinks
+* Mineral Water
+
+---
+
+## 11. Desserts
+
+Category Banner:
+
+Gulab Jamun with Ice Cream
+
+Items:
+
+* Gulab Jamun
+* Ice Cream
+* Fruit Salad with Ice Cream
+* Brownie with Ice Cream
+
+---
+
+# FEATURED DISHES
+
+Create a beautiful homepage section called:
+
+"Chef's Signature & Best Sellers"
+
+Display:
+
+* Paneer Butter Masala
+* Veg Dum Biryani
+* Gobi 65
+* Paneer Tikka
+* Butter Naan
+* Dal Tadka
+* Mini Meals
+* Fresh Lime Juice
+
+Each featured dish must have:
+
+* HD Image
+* Price
+* Short Description
+* Chef's Choice Badge
+* Hover Animation
+
+---
+
+# MENU IMAGES
+
+Automatically use unique, professional, royalty-free HD food photography for every dish whenever possible.
+
+Do NOT reuse one image across multiple dishes unless absolutely necessary.
+
+Optimize all images for performance using WebP, lazy loading, responsive sizes, and proper SEO alt text.
+
+---
+
+# MENU DATA
+
+Store the entire menu in a structured JSON/data file.
+
+Do NOT hardcode menu items into React components.
+
+The UI must automatically render all categories, dishes, images, descriptions, and prices from the data source.
+
+This will make future updates easy.
+
+---
+
+# FINAL OBJECTIVE
+
+The completed menu should feel like browsing the digital menu of a luxury five-star restaurant.
+
+Every category should contain all dishes, every dish should have an HD image, actual price, elegant description, smooth animations, premium UI, and a seamless browsing experience.
+
+Nothing from the menu I provided should be missing.
