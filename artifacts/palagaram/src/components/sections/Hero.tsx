@@ -72,22 +72,8 @@ export function Hero() {
         ))}
       </div>
 
-      <div className="container relative z-20 mx-auto px-6 md:px-10 flex flex-col md:flex-row items-center justify-between h-full pt-24 pb-12">
+      <div className="container relative z-20 mx-auto px-6 md:px-10 flex flex-col md:flex-row items-center justify-between h-full pt-36 pb-12">
         <div className="max-w-3xl flex flex-col items-center md:items-start">
-          {/* Eyebrow */}
-          <motion.div
-            initial={{ opacity: 0, y: 12 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ delay: 0.1, duration: 0.7 }}
-            className="flex items-center gap-3 mb-6"
-          >
-            <span className="h-px w-8 bg-[#C89B5A]" />
-            <span className="text-[#C89B5A] uppercase tracking-[0.25em] text-xs font-semibold">
-              Chidambaram's Finest Vegetarian
-            </span>
-            <span className="h-px w-8 bg-[#C89B5A]" />
-          </motion.div>
-
           {/* Headline word-by-word */}
           <motion.div
             variants={container}
