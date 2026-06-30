@@ -13,6 +13,12 @@ import ReservationPage from "@/pages/ReservationPage";
 import Checkout from "@/pages/Checkout";
 import OrderConfirmation from "@/pages/OrderConfirmation";
 import CateringPage from "@/pages/CateringPage";
+import MyOrders from "@/pages/MyOrders";
+import MyProfile from "@/pages/MyProfile";
+import Notifications from "@/pages/Notifications";
+import Wishlist from "@/pages/Wishlist";
+import SavedAddresses from "@/pages/SavedAddresses";
+import TrackOrderPage from "@/pages/TrackOrderPage";
 
 const queryClient = new QueryClient();
 
@@ -27,6 +33,12 @@ function Router() {
       <Route path="/checkout" component={Checkout} />
       <Route path="/order-confirmation" component={OrderConfirmation} />
       <Route path="/catering" component={CateringPage} />
+      <Route path="/my-orders" component={MyOrders} />
+      <Route path="/my-profile" component={MyProfile} />
+      <Route path="/notifications" component={Notifications} />
+      <Route path="/wishlist" component={Wishlist} />
+      <Route path="/saved-addresses" component={SavedAddresses} />
+      <Route path="/track-order" component={TrackOrderPage} />
       <Route component={NotFound} />
     </Switch>
   );

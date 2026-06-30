@@ -1,0 +1,535 @@
+Create a WORLD-CLASS PREMIUM Customer Account & Order Management System for the Palagaram Restaurant website.
+
+IMPORTANT RULES (VERY IMPORTANT)
+
+• DO NOT modify the existing website.
+• DO NOT redesign or touch Home, About, Menu, Gallery, Catering, Reservation, Checkout, Contact, Navbar, Footer, Hero Section, Colors or Typography.
+• Everything currently working must remain EXACTLY the same.
+• Only ADD new customer account and order management features.
+• This must feel like Amazon, Swiggy, Zomato, Myntra and Apple combined—not a basic restaurant website.
+• Use production-quality React components with clean modular architecture.
+• Use mock/demo data only.
+• NO backend.
+• NO database.
+• NO API.
+• NO authentication implementation yet.
+• Make everything frontend-ready for future backend integration.
+
+======================================================
+CUSTOMER ACCOUNT DROPDOWN
+======================================================
+
+When the customer clicks the profile icon, open a premium floating dropdown with smooth animation.
+
+Items:
+
+👤 My Profile
+
+📦 My Orders
+
+🚚 Track Orders
+
+❤️ Wishlist
+
+📍 Saved Addresses
+
+🔔 Notifications
+
+💳 Saved Payments
+
+⚙ Account Settings
+
+🚪 Logout
+
+Premium glassmorphism card.
+
+Rounded corners.
+
+Luxury shadows.
+
+Smooth animation.
+
+Click outside to close.
+
+======================================================
+MY ORDERS PAGE
+======================================================
+
+Create a brand-new page.
+
+Route:
+/my-orders
+
+Premium dashboard layout.
+
+Top section contains elegant statistic cards.
+
+Total Orders
+
+Active Orders
+
+Delivered
+
+Preparing
+
+Cancelled
+
+Refunded
+
+Money Spent
+
+Loyalty Points
+
+Animated counters.
+
+Luxury icons.
+
+======================================================
+SEARCH & FILTER
+======================================================
+
+Large premium search bar.
+
+Search by:
+
+Order ID
+
+Product Name
+
+Date
+
+Amount
+
+Tracking Number
+
+Customer Notes
+
+Filters
+
+Newest
+
+Oldest
+
+Highest Price
+
+Lowest Price
+
+Status
+
+Date Range
+
+Payment Type
+
+======================================================
+ORDER STATUS FILTERS
+======================================================
+
+Beautiful pill buttons.
+
+All
+
+Pending
+
+Accepted
+
+Preparing
+
+Ready
+
+Packed
+
+Out For Delivery
+
+Delivered
+
+Cancelled
+
+Refunded
+
+Returned
+
+Completed
+
+Animated active indicator.
+
+======================================================
+ORDER CARD
+======================================================
+
+Every order should look premium.
+
+Show:
+
+Order ID
+
+Order Date
+
+Order Time
+
+Status Badge
+
+Estimated Delivery
+
+Order Total
+
+Ordered Food Images
+
+Ordered Food Names
+
+Quantity
+
+Payment Method
+
+Buttons:
+
+View Details
+
+Download Invoice
+
+Track Order
+
+Raise Issue
+
+Cancel Order
+
+Order Again
+
+Rate Order
+
+Share Order
+
+Beautiful hover animation.
+
+Premium shadows.
+
+======================================================
+VIEW DETAILS
+======================================================
+
+Open luxury modal.
+
+Large timeline.
+
+Order Placed
+
+Accepted
+
+Preparing
+
+Packed
+
+Out For Delivery
+
+Delivered
+
+Each step animated.
+
+Show:
+
+Customer Information
+
+Phone
+
+Address
+
+Ordered Items
+
+Food Images
+
+Price Breakdown
+
+GST
+
+Discount
+
+Delivery Charge
+
+Grand Total
+
+Special Instructions
+
+Coupon Used
+
+Payment Details
+
+Transaction ID
+
+Invoice Number
+
+Restaurant Contact
+
+Download Invoice
+
+Print Invoice
+
+Close
+
+======================================================
+TRACK ORDER
+======================================================
+
+Create a beautiful live-tracking style page.
+
+Animated progress tracker.
+
+Large delivery timeline.
+
+Estimated Delivery Time
+
+Estimated Arrival
+
+Restaurant Accepted
+
+Preparing
+
+Packed
+
+Driver Assigned (Demo)
+
+Out For Delivery
+
+Delivered
+
+Animated vehicle icon moving across timeline.
+
+Google Map placeholder section.
+
+Delivery Rider placeholder.
+
+Call Rider button (disabled demo)
+
+Chat button (demo)
+
+======================================================
+RAISE ISSUE
+======================================================
+
+Premium popup.
+
+Blur background.
+
+Issue Categories
+
+Wrong Item
+
+Missing Item
+
+Damaged Food
+
+Cold Food
+
+Late Delivery
+
+Refund Request
+
+Payment Issue
+
+Other
+
+Description box.
+
+Upload image placeholder.
+
+Character counter.
+
+Submit Issue.
+
+After submission show beautiful success animation.
+
+Large green checkmark.
+
+Issue Number Generated.
+
+Message:
+
+"Our customer care team will contact you within 24 hours."
+
+======================================================
+DOWNLOAD INVOICE
+======================================================
+
+Professional printable invoice.
+
+Restaurant Logo.
+
+Customer Details.
+
+GST.
+
+Invoice Number.
+
+Food Items.
+
+Taxes.
+
+Discount.
+
+Total.
+
+Print Button.
+
+Download PDF Button.
+
+======================================================
+PROFILE PAGE
+======================================================
+
+Create premium profile page.
+
+Profile Photo
+
+Customer Name
+
+Phone
+
+Email
+
+Birthday
+
+Saved Addresses
+
+Saved Payments
+
+Recent Orders
+
+Reward Points
+
+Membership Level
+
+Edit Profile
+
+Change Password
+
+======================================================
+NOTIFICATIONS
+======================================================
+
+Beautiful notification center.
+
+Order Updates
+
+Offer Alerts
+
+Reservation Updates
+
+Festival Offers
+
+Reward Points
+
+Unread badge.
+
+Mark all as read.
+
+======================================================
+WISHLIST
+======================================================
+
+Favorite dishes.
+
+Favorite combos.
+
+Favorite desserts.
+
+Move to cart.
+
+Remove.
+
+======================================================
+SAVED ADDRESSES
+======================================================
+
+Home
+
+Office
+
+Other
+
+Add Address
+
+Edit
+
+Delete
+
+Set Default
+
+======================================================
+EMPTY STATES
+======================================================
+
+If no orders exist:
+
+Show premium illustration.
+
+Large message.
+
+"Looks like you haven't placed any orders yet."
+
+Button:
+
+Explore Menu
+
+======================================================
+LOADING STATES
+======================================================
+
+Skeleton loaders.
+
+Beautiful shimmer effect.
+
+======================================================
+SUCCESS ANIMATIONS
+======================================================
+
+Order Cancelled
+
+Issue Raised
+
+Invoice Downloaded
+
+Wishlist Updated
+
+Profile Saved
+
+All should use premium success animations.
+
+======================================================
+DESIGN SYSTEM
+======================================================
+
+Luxury Restaurant Theme.
+
+Dark Brown (#2D1A10)
+
+Gold (#C89B5A)
+
+Cream (#FAF8F5)
+
+Soft gradients.
+
+Rounded-2xl.
+
+Glassmorphism.
+
+Premium shadows.
+
+Hover lift effects.
+
+Framer Motion animations.
+
+Responsive for Mobile, Tablet and Desktop.
+
+======================================================
+VERY IMPORTANT
+======================================================
+
+The quality should be BETTER than Swiggy, Zomato, Amazon and Myntra order pages.
+
+Do not create simple cards.
+
+Every screen should feel premium, interactive and luxurious.
+
+Follow modern UI/UX best practices.
+
+Keep the code modular and production-ready for future backend integration.
+
+Finally, after everything is completed, automatically verify that no existing page or functionality has been modified. Only new customer account and order management features should be added.

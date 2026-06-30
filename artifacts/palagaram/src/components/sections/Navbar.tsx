@@ -1,14 +1,16 @@
 import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { Menu, X, Images, ShoppingBag, CalendarCheck } from "lucide-react";
+import { Menu, X, Images, ShoppingBag, CalendarCheck, UserCircle2 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Link, useLocation } from "wouter";
 import { useCart } from "@/context/CartContext";
+import { AccountDropdown } from "@/components/account/AccountDropdown";
 import logoImg from "@assets/image_1782825319906.png";
 
 export function Navbar() {
   const [scrolled, setScrolled] = useState(false);
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+  const [accountOpen, setAccountOpen] = useState(false);
   const [location] = useLocation();
   const { itemCount, openCart } = useCart();
 
@@ -114,20 +116,23 @@ export function Navbar() {
             )}
           </Button>
 
-          {itemCount > 0 && (
-            <button
-              onClick={openCart}
-              className={`relative w-9 h-9 rounded-full flex items-center justify-center transition-colors ${!isTransparent ? "text-[#4B352A] hover:text-[#C89B5A]" : "text-white/80 hover:text-white"}`}
+          {/* Profile Icon */}
+          <div className="relative">
+            <motion.button
+              whileTap={{ scale: 0.9 }}
+              onClick={() => setAccountOpen((v) => !v)}
+              className={`relative w-9 h-9 rounded-full flex items-center justify-center transition-all border-2 ${
+                accountOpen
+                  ? "border-[#C89B5A] bg-[#C89B5A] text-white"
+                  : !isTransparent
+                    ? "border-[#EADBC8] text-[#4B352A] hover:border-[#C89B5A] hover:text-[#C89B5A]"
+                    : "border-white/30 text-white/80 hover:text-white hover:border-white"
+              }`}
             >
-              <ShoppingBag className="w-5 h-5" />
-              <motion.span
-                initial={{ scale: 0 }} animate={{ scale: 1 }}
-                className="absolute -top-1 -right-1 w-4 h-4 min-w-[16px] bg-red-500 text-white text-[9px] font-bold rounded-full flex items-center justify-center"
-              >
-                {itemCount}
-              </motion.span>
-            </button>
-          )}
+              <UserCircle2 className="w-5 h-5" />
+            </motion.button>
+            <AccountDropdown open={accountOpen} onClose={() => setAccountOpen(false)} />
+          </div>
         </div>
 
         {/* Mobile: cart + hamburger */}
@@ -182,6 +187,22 @@ export function Navbar() {
                 >
                   <ShoppingBag className="w-4 h-4" /> Order Online {itemCount > 0 && `(${itemCount})`}
                 </Button>
+                <div className="border-t border-[#EADBC8] pt-3 mt-1 space-y-1">
+                  {[
+                    { label: "👤 My Profile", href: "/my-profile" },
+                    { label: "📦 My Orders", href: "/my-orders" },
+                    { label: "🚚 Track Orders", href: "/track-order" },
+                    { label: "❤️ Wishlist", href: "/wishlist" },
+                    { label: "🔔 Notifications", href: "/notifications" },
+                    { label: "📍 Saved Addresses", href: "/saved-addresses" },
+                  ].map((item) => (
+                    <Link key={item.href} href={item.href} onClick={() => setMobileMenuOpen(false)}>
+                      <div className="text-sm font-medium py-2.5 px-3 text-[#4B352A] hover:text-[#C89B5A] hover:bg-[#F6F0E8] rounded-lg transition-colors cursor-pointer">
+                        {item.label}
+                      </div>
+                    </Link>
+                  ))}
+                </div>
               </div>
             </div>
           </motion.div>
