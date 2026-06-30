@@ -1,0 +1,46 @@
+Fix the application navigation and loading behavior without changing any existing UI, design, layout, colors, components, or functionality.
+
+IMPORTANT:
+
+• The loading/splash screen must appear ONLY ONCE when the website is opened for the very first time (initial app load).
+• After the splash screen finishes, it must NEVER appear again while navigating between pages.
+• Do NOT show the loading screen when clicking Menu, Gallery, Catering, Reservation, Checkout, My Orders, Profile, Track Order, Admin, or any other internal page.
+• Internal page navigation must be instant and smooth.
+
+Navigation Fix:
+
+• Make the application behave like a proper Single Page Application (SPA).
+• Use client-side routing only.
+• Do NOT perform a full page refresh when navigating between internal pages.
+• Preserve browser history correctly.
+
+Browser Back/Forward Fix:
+
+• If the user is on My Orders and presses the browser Back button, it should return to the previous page they actually visited (for example Menu, Gallery, Catering, etc.).
+• It should NOT restart the entire website.
+• It should NOT show the splash screen again.
+• It should NOT redirect to the homepage unless the homepage is actually the previous history entry.
+• Browser Forward should also work correctly.
+
+State Preservation:
+
+• Preserve scroll position when appropriate.
+• Preserve navigation history.
+• Prevent unnecessary remounting of the entire App component.
+• Do not recreate the application root on every route change.
+
+Performance:
+
+• Avoid unnecessary re-renders.
+• Lazy load pages where appropriate.
+• Keep page transitions smooth.
+• No white flash or blank screen during navigation.
+
+Verification:
+
+After implementing the fix, verify that:
+1. Splash screen appears only once on the initial website load.
+2. Internal navigation never shows the splash screen.
+3. Browser Back and Forward buttons work correctly.
+4. Navigation is handled entirely through SPA routing.
+5. No existing page, UI, or functionality has been modified except for the navigation and loading behavior.

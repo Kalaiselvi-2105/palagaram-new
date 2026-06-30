@@ -17,12 +17,20 @@ import { Reservation } from "@/components/sections/Reservation";
 import { Footer } from "@/components/sections/Footer";
 import { IntroAnimation } from "@/components/IntroAnimation";
 
+const INTRO_KEY = "palagaram_intro_seen";
+
 export default function Home() {
-  const [introComplete, setIntroComplete] = useState(false);
+  const alreadySeen = sessionStorage.getItem(INTRO_KEY) === "1";
+  const [introComplete, setIntroComplete] = useState(alreadySeen);
+
+  function handleIntroComplete() {
+    sessionStorage.setItem(INTRO_KEY, "1");
+    setIntroComplete(true);
+  }
 
   return (
     <>
-      {!introComplete && <IntroAnimation onComplete={() => setIntroComplete(true)} />}
+      {!introComplete && <IntroAnimation onComplete={handleIntroComplete} />}
       <div
         className="flex flex-col min-h-screen bg-background text-foreground overflow-x-hidden"
         style={{ visibility: introComplete ? "visible" : "hidden" }}
