@@ -19,12 +19,18 @@ import Notifications from "@/pages/Notifications";
 import Wishlist from "@/pages/Wishlist";
 import SavedAddresses from "@/pages/SavedAddresses";
 import TrackOrderPage from "@/pages/TrackOrderPage";
+import AdminApp from "@/admin/AdminApp";
 
 const queryClient = new QueryClient();
 
 function Router() {
   return (
     <Switch>
+      {/* Admin routes — completely separate system */}
+      <Route path="/admin" component={AdminApp} />
+      <Route path="/admin/:rest*" component={AdminApp} />
+
+      {/* Customer-facing routes */}
       <Route path="/" component={Home} />
       <Route path="/menu" component={MenuPage} />
       <Route path="/menu/:slug" component={MenuCategoryPage} />

@@ -1,2 +1,3 @@
 - [Palagaram stack & routes](palagaram-stack.md) — React+Vite+TS+Tailwind+wouter; CartProvider in App.tsx; routes: /, /menu, /menu/:slug, /gallery, /reservation, /checkout, /order-confirmation
 - [menu.ts exports required](palagaram-menu-exports.md) — Menu.tsx needs searchDishes(), ChefSignature needs FEATURED_DISHES[], MenuCategory needs getCategoryBySlug() — all must be exported from menu.ts
+- [Admin panel structure](palagaram-admin.md) — Full admin at /admin (login: admin/palagaram@2024); all files in src/admin/; auth via localStorage; completely separate from customer pages
