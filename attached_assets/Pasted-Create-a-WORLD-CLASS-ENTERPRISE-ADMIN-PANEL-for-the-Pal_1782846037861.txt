@@ -1,0 +1,551 @@
+Create a WORLD-CLASS ENTERPRISE ADMIN PANEL for the Palagaram Restaurant website.
+
+IMPORTANT (READ CAREFULLY)
+
+This is NOT a simple admin page.
+
+I want a premium Restaurant Management System that looks better than Shopify Admin, Swiggy Merchant, Zomato Business Dashboard, Toast POS, Square Dashboard and modern SaaS applications.
+
+You have full creative freedom to design the best possible UI/UX.
+
+Think like a Senior Product Designer and Senior React Developer.
+
+Do NOT simply follow this prompt literally.
+
+Instead, improve every section using your own experience and modern UI/UX best practices.
+
+====================================================
+
+STRICT RULES
+
+• Do NOT modify any existing customer-facing pages.
+• Do NOT redesign Home, About, Menu, Gallery, Reservation, Catering, Checkout, Contact, Navbar, Footer or any existing page.
+• Do NOT break any existing functionality.
+• Everything already working must remain exactly the same.
+• Build everything as a completely separate Admin System.
+
+Create a separate route:
+
+/admin
+
+====================================================
+
+ADMIN LOGIN
+
+Build a luxury admin login experience.
+
+Premium restaurant branding.
+
+Restaurant logo.
+
+Glassmorphism login card.
+
+Dark Brown + Gold luxury theme.
+
+Animated background.
+
+Password visibility toggle.
+
+Remember Me.
+
+Forgot Password.
+
+Beautiful loading animation.
+
+Smooth transitions.
+
+Only after successful login should the dashboard open.
+
+====================================================
+
+MAIN DASHBOARD
+
+Create a beautiful dashboard homepage.
+
+Large animated welcome header.
+
+Current Date.
+
+Current Time.
+
+Restaurant Status.
+
+Today's Summary.
+
+Animated KPI Cards.
+
+Examples:
+
+Today's Revenue
+
+Today's Orders
+
+Pending Orders
+
+Preparing
+
+Ready
+
+Out For Delivery
+
+Delivered
+
+Cancelled
+
+Reservations
+
+Catering Requests
+
+Customer Reviews
+
+Average Rating
+
+Returning Customers
+
+Monthly Revenue
+
+Weekly Revenue
+
+Popular Item
+
+New Customers
+
+Average Order Value
+
+Growth Percentage
+
+Every card should animate beautifully.
+
+====================================================
+
+ANALYTICS
+
+Create premium interactive analytics.
+
+Revenue Chart
+
+Orders Chart
+
+Popular Foods
+
+Sales by Category
+
+Peak Hours
+
+Customer Growth
+
+Monthly Comparison
+
+Weekly Comparison
+
+Heatmap
+
+Top Selling Items
+
+Top Categories
+
+Payment Method Breakdown
+
+Order Type Distribution
+
+Beautiful charts.
+
+====================================================
+
+ORDER MANAGEMENT
+
+Professional Order Management.
+
+Search.
+
+Filters.
+
+Sorting.
+
+Status Tabs.
+
+Expandable Cards.
+
+Bulk Actions.
+
+Each Order includes:
+
+Customer
+
+Address
+
+Phone
+
+Items
+
+Food Images
+
+Quantity
+
+GST
+
+Discount
+
+Coupon
+
+Payment
+
+Notes
+
+Kitchen Instructions
+
+Timeline
+
+Invoice
+
+Print
+
+Download PDF
+
+Assign Delivery
+
+Status Update
+
+Duplicate Order
+
+Archive
+
+====================================================
+
+LIVE KITCHEN DASHBOARD
+
+Dedicated Kitchen Screen.
+
+Preparing Queue.
+
+Cooking Timer.
+
+Priority Orders.
+
+Express Orders.
+
+Parcel Orders.
+
+Dine In Orders.
+
+Color coded statuses.
+
+Kitchen performance summary.
+
+====================================================
+
+TABLE RESERVATION MANAGER
+
+Calendar View.
+
+Table Layout.
+
+Available Tables.
+
+Occupied Tables.
+
+Upcoming Reservations.
+
+Accept.
+
+Reject.
+
+Reschedule.
+
+Assign Table.
+
+Special Requests.
+
+====================================================
+
+CATERING MANAGEMENT
+
+Premium Catering CRM.
+
+Every enquiry shown beautifully.
+
+Guest Count.
+
+Budget.
+
+Food Preference.
+
+Event Date.
+
+Venue.
+
+Assign Manager.
+
+Generate Quote.
+
+Download Quote PDF.
+
+Approve.
+
+Reject.
+
+Convert to Booking.
+
+====================================================
+
+MENU MANAGEMENT
+
+Restaurant Categories.
+
+Products.
+
+Images.
+
+Price.
+
+Availability.
+
+Today's Special.
+
+Chef Recommendation.
+
+Best Seller.
+
+Seasonal Menu.
+
+Quick Edit.
+
+Bulk Edit.
+
+Upload Image.
+
+Delete.
+
+Preview.
+
+====================================================
+
+GALLERY MANAGEMENT
+
+Upload Photos.
+
+Delete Photos.
+
+Categories.
+
+Preview.
+
+Cover Image.
+
+Featured Images.
+
+====================================================
+
+CUSTOMER MANAGEMENT
+
+Customer Profiles.
+
+Order History.
+
+Lifetime Spending.
+
+Loyalty Points.
+
+Membership Level.
+
+Notes.
+
+Blacklist.
+
+VIP Badge.
+
+====================================================
+
+REVIEW MANAGEMENT
+
+Approve.
+
+Reject.
+
+Pin Review.
+
+Reply.
+
+Hide.
+
+Spam Detection Placeholder.
+
+====================================================
+
+NOTIFICATIONS
+
+Real-time Notification Center.
+
+Orders.
+
+Reservations.
+
+Payments.
+
+Reviews.
+
+System Alerts.
+
+Unread Badge.
+
+====================================================
+
+OFFERS & COUPONS
+
+Festival Offers.
+
+Discount Coupons.
+
+Referral Codes.
+
+Expiry.
+
+Enable.
+
+Disable.
+
+Banner Preview.
+
+====================================================
+
+SETTINGS
+
+Restaurant Information.
+
+GST.
+
+Opening Hours.
+
+Phone.
+
+Email.
+
+Address.
+
+Social Links.
+
+Logo Upload.
+
+Banner Upload.
+
+Theme Settings.
+
+====================================================
+
+REPORTS
+
+Export:
+
+CSV
+
+Excel
+
+PDF
+
+Print
+
+Revenue Report.
+
+Sales Report.
+
+Tax Report.
+
+Order Report.
+
+====================================================
+
+DESIGN SYSTEM
+
+Luxury Restaurant Theme.
+
+Dark Brown.
+
+Gold.
+
+Cream.
+
+Premium gradients.
+
+Soft shadows.
+
+Rounded corners.
+
+Glassmorphism.
+
+Premium typography.
+
+Beautiful spacing.
+
+Micro-interactions.
+
+Hover animations.
+
+Framer Motion.
+
+Skeleton loaders.
+
+Toast notifications.
+
+Floating action buttons.
+
+Smooth page transitions.
+
+Sticky sidebar.
+
+Collapsible sidebar.
+
+Responsive Desktop.
+
+Responsive Tablet.
+
+Responsive Mobile.
+
+====================================================
+
+PERFORMANCE
+
+Lazy loading.
+
+Reusable Components.
+
+Modular Folder Structure.
+
+Clean Architecture.
+
+Production Ready.
+
+Future Backend Ready.
+
+====================================================
+
+AI IMPROVEMENTS
+
+Do not stop after implementing the requested features.
+
+If you think any professional restaurant admin feature is missing, automatically add it.
+
+If any screen can be improved, redesign it using modern SaaS UI standards.
+
+Make every page feel like a premium commercial restaurant management platform instead of a college project.
+
+====================================================
+
+FINAL VERIFICATION
+
+After completing everything:
+
+✔ Verify no existing customer page has changed.
+
+✔ Verify only the new Admin System was added.
+
+✔ Verify routing works correctly.
+
+✔ Verify responsive design.
+
+✔ Verify animations work.
+
+✔ Verify no TypeScript errors.
+
+✔ Verify build succeeds.
+
+The final result should feel like a commercial restaurant ERP/Admin Dashboard ready for future backend integration.
