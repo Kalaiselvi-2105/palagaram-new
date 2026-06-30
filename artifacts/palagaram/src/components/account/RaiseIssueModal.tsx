@@ -21,9 +21,13 @@ export function RaiseIssueModal({ order, onClose }: Props) {
   const [description, setDescription] = useState("");
   const [submitted, setSubmitted] = useState(false);
   const [issueNumber] = useState(`ISS-${Date.now().toString().slice(-6)}`);
+  const [showHint, setShowHint] = useState(false);
 
   const handleSubmit = () => {
-    if (!selected || description.trim().length < 10) return;
+    if (!selected) {
+      setShowHint(true);
+      return;
+    }
     setSubmitted(true);
   };
 
@@ -59,6 +63,9 @@ export function RaiseIssueModal({ order, onClose }: Props) {
                 <div className="px-6 py-5 space-y-5">
                   <div>
                     <p className="text-sm font-semibold text-[#2D1A10] mb-3">What's the issue?</p>
+                    {showHint && !selected && (
+                      <p className="text-xs text-red-500 mb-2 font-medium">Please select an issue category to continue.</p>
+                    )}
                     <div className="grid grid-cols-2 gap-2">
                       {ISSUE_CATEGORIES.map((c) => (
                         <motion.button
@@ -99,8 +106,7 @@ export function RaiseIssueModal({ order, onClose }: Props) {
                   <motion.button
                     whileTap={{ scale: 0.97 }}
                     onClick={handleSubmit}
-                    disabled={!selected || description.trim().length < 10}
-                    className="w-full py-3.5 rounded-2xl bg-[#2D1A10] text-white font-bold text-sm transition-all disabled:opacity-40 hover:bg-[#4B2E1A]"
+                    className="w-full py-3.5 rounded-2xl bg-[#2D1A10] text-white font-bold text-sm transition-all hover:bg-[#4B2E1A]"
                   >
                     Submit Issue
                   </motion.button>
