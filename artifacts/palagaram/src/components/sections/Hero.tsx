@@ -1,4 +1,4 @@
-import { motion } from "framer-motion";
+import { motion, type Variants } from "framer-motion";
 import { Button } from "@/components/ui/button";
 import { Star, Utensils, Users, Award } from "lucide-react";
 import restaurantPhoto from "@assets/image_1782825302920.png";
@@ -15,7 +15,7 @@ export function Hero() {
     }),
   };
 
-  const child = {
+  const child: Variants = {
     visible: { opacity: 1, y: 0, transition: { type: "spring", damping: 14, stiffness: 120 } },
     hidden: { opacity: 0, y: 40 },
   };

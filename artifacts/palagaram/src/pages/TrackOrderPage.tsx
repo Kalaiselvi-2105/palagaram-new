@@ -25,7 +25,7 @@ const activeOrders = MOCK_ORDERS.filter((o) => ["Pending", "Accepted", "Preparin
 export default function TrackOrderPage() {
   const [trackId, setTrackId] = useState("");
   const [searched, setSearched] = useState(false);
-  const [foundOrder, setFoundOrder] = useState(activeOrders[0] || null);
+  const [foundOrder, setFoundOrder] = useState<typeof activeOrders[0] | null>(activeOrders[0] || null);
 
   const handleSearch = () => {
     if (!trackId.trim()) return;

@@ -9,7 +9,7 @@ function Counter({ from, to, duration = 2, suffix = "" }: { from: number; to: nu
 
   useEffect(() => {
     if (isInView) {
-      let start = null;
+      let start: number | null = null;
       const step = (timestamp: number) => {
         if (!start) start = timestamp;
         const progress = Math.min((timestamp - start) / (duration * 1000), 1);

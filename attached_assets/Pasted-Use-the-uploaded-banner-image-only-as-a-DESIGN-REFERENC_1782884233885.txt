@@ -1,0 +1,99 @@
+Use the uploaded banner image only as a DESIGN REFERENCE.
+
+I want a new premium section on the Home Page called "Daily Food Combos".
+
+Requirements:
+
+Add this section immediately below the Hero Banner on the Home Page.
+Create a large, premium-looking promotional banner slider (carousel).
+The design style should be inspired by the uploaded reference image, but do NOT copy it exactly.
+The banner must look modern, attractive, and suitable for a premium restaurant website.
+Show only one banner at a time with smooth auto-slide every 5 seconds.
+Add previous/next arrows and dot indicators.
+Make it fully responsive for Desktop, Tablet, and Mobile.
+Dynamic Daily Update:
+
+This banner must be fully dynamic.
+I should be able to update it every day from the Admin Panel without changing any code.
+Admin should be able to:
+Add a new Daily Combo banner
+Edit an existing banner
+Delete a banner
+Upload a new banner image
+Change combo name
+Change dishes
+Change price
+Change offer text
+Change available time
+Enable/Disable the banner
+Any changes made in the Admin Panel must instantly appear on the Home Page.
+Banner Content:
+
+Banner Image
+Combo Name
+Dish List
+Price
+Offer (Example: Buy 1 Get 1 Free)
+Available Time
+Short Description
+Call-to-Action Button (Order Now / View Combo)
+Important:
+
+Use the uploaded image only as a reference for layout and premium feel.
+Do NOT hardcode any banner.
+Store all banner data dynamically in the database/backend.
+Build the Admin Panel if it is missing.
+Do not change the existing website design.
+Simply add this new Daily Food Combos section professionally.
+Keep animations smooth and premium.
+Make the entire feature production-ready.
+Complete everything automatically without asking for confirmation.
+🚨 HIGH PRIORITY TASK - COMPLETE THIS FIRST
+
+Stop working on any other feature.
+
+I need this completed as quickly as possible.
+
+Create a premium "Daily Food Combos" banner section on the Home Page using the uploaded image only as a design reference.
+
+Requirements:
+
+• Place it immediately below the Hero section.
+• It must look like a premium restaurant promotional banner.
+• Add smooth animations and auto-slide.
+• Show only one banner at a time.
+• Fully responsive on Desktop, Tablet, and Mobile.
+
+Most Important:
+
+This section must be completely dynamic.
+
+I must be able to update the Daily Combo every day from the Admin Panel without changing any code.
+
+The Admin Panel must allow me to:
+
+Upload a new combo banner image
+Change combo name
+Change dishes
+Change price
+Change offer
+Change available time
+Edit/Delete banners
+Enable/Disable banners
+Rearrange banner order
+Any changes made in Admin must appear instantly on the Home Page.
+
+Use the uploaded image only as a layout and style reference. Do NOT copy it exactly.
+
+Do NOT hardcode anything.
+
+Do NOT change the existing website design.
+
+This feature is very important and urgent.
+
+⚠️ Finish this as quickly as possible.
+⚠️ Do not ask for confirmation.
+⚠️ Complete the entire feature automatically.
+⚠️ Make it production-ready before stopping.
+
+Choose the best position for this section based on the overall website design. Place it wherever it looks the most attractive and professional. Do not place it randomly. Analyze the entire Home Page layout first and insert the Daily Food Combos banner in the most visually appealing location where it naturally attracts users and increases conversions. Make it blend perfectly with the existing design and maintain proper spacing, alignment, and responsiveness

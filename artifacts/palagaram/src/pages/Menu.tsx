@@ -23,6 +23,12 @@ export default function MenuPage() {
   const [query, setQuery] = useState("");
   const [activeFilter, setActiveFilter] = useState<Filter>("All");
 
+  const dishCategoryMap = useMemo(() => {
+    const map: Record<string, string> = {};
+    MENU.forEach(cat => cat.dishes.forEach(d => { map[d.id] = cat.name; }));
+    return map;
+  }, []);
+
   const results = useMemo(() => {
     if (!query) return [];
     let dishes = searchDishes(query);
@@ -130,7 +136,7 @@ export default function MenuPage() {
                       </div>
                     </div>
                     <div className="p-4">
-                      <p className="text-[#C89B5A] text-[10px] uppercase tracking-wider mb-1">{dish.categoryName}</p>
+                      <p className="text-[#C89B5A] text-[10px] uppercase tracking-wider mb-1">{dishCategoryMap[dish.id]}</p>
                       <h3 className="font-serif font-bold text-[#4B352A] mb-1 text-sm">{dish.name}</h3>
                       <p className="text-[#4B352A]/55 text-xs line-clamp-2 mb-3">{dish.desc}</p>
                       <div className="flex items-center justify-between">

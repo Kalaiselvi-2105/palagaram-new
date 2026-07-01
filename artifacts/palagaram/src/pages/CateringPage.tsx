@@ -11,16 +11,17 @@ import { Footer } from "@/components/sections/Footer";
 import { Link } from "wouter";
 
 /* ─────────────────────────── ANIMATION VARIANTS ─────────────────────── */
+const EASE_CURVE: [number, number, number, number] = [0.16, 1, 0.3, 1];
 const fadeUp = {
   hidden: { opacity: 0, y: 40 },
   show: (i = 0) => ({
     opacity: 1, y: 0,
-    transition: { duration: 0.6, delay: i * 0.08, ease: [0.16, 1, 0.3, 1] },
+    transition: { duration: 0.6, delay: i * 0.08, ease: EASE_CURVE },
   }),
 };
 const slideIn = {
   enter: (dir: number) => ({ x: dir > 0 ? 80 : -80, opacity: 0 }),
-  center: { x: 0, opacity: 1, transition: { duration: 0.45, ease: [0.16, 1, 0.3, 1] } },
+  center: { x: 0, opacity: 1, transition: { duration: 0.45, ease: EASE_CURVE } },
   exit: (dir: number) => ({ x: dir > 0 ? -80 : 80, opacity: 0, transition: { duration: 0.3 } }),
 };
 
