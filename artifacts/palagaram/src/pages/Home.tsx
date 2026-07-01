@@ -7,9 +7,6 @@ import { MenuShowcase } from "@/components/sections/MenuShowcase";
 import { MenuCategories } from "@/components/sections/MenuCategories";
 import { Specials } from "@/components/sections/Specials";
 import { ChefSignature } from "@/components/sections/ChefSignature";
-import { LiveKitchen } from "@/components/sections/LiveKitchen";
-import { LiveExperience } from "@/components/sections/LiveExperience";
-import { FoodFinder } from "@/components/sections/FoodFinder";
 import { CustomerTimeline } from "@/components/sections/CustomerTimeline";
 import { WhyPalagaram } from "@/components/sections/WhyPalagaram";
 import { Testimonials } from "@/components/sections/Testimonials";
@@ -45,9 +42,6 @@ export default function Home() {
           <MenuCategories />
           <Specials />
           <ChefSignature />
-          <LiveKitchen />
-          <LiveExperience />
-          <FoodFinder />
           <CustomerTimeline />
           <WhyPalagaram />
           <Testimonials />
