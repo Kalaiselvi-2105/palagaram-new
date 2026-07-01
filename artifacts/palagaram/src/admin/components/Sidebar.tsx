@@ -3,7 +3,7 @@ import { useLocation } from "wouter";
 import {
   LayoutDashboard, BarChart3, ShoppingBag, ChefHat, Calendar,
   Utensils, UtensilsCrossed, Image, Users, Star, Bell, Tag,
-  Settings, FileText, ChevronLeft, ChevronRight, LogOut, X
+  Settings, FileText, ChevronLeft, ChevronRight, LogOut, X, Layers
 } from "lucide-react";
 import { useAuth } from "../AdminApp";
 
@@ -20,6 +20,7 @@ const NAV_ITEMS = [
   ]},
   { group: "Content", items: [
     { icon: UtensilsCrossed, label: "Menu", path: "/admin/menu" },
+    { icon: Layers, label: "Daily Combos", path: "/admin/daily-combos" },
     { icon: Image, label: "Gallery", path: "/admin/gallery" },
   ]},
   { group: "CRM", items: [

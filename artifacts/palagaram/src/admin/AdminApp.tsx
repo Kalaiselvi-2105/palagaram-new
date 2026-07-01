@@ -16,6 +16,7 @@ import AdminNotifications from "./pages/AdminNotifications";
 import Offers from "./pages/Offers";
 import Settings from "./pages/Settings";
 import Reports from "./pages/Reports";
+import DailyCombosManagement from "./pages/DailyCombosManagement";
 
 interface AuthContextType {
   isAuthenticated: boolean;
@@ -77,6 +78,7 @@ export default function AdminApp() {
                   <Route path="/admin/reviews" component={Reviews} />
                   <Route path="/admin/notifications" component={AdminNotifications} />
                   <Route path="/admin/offers" component={Offers} />
+                  <Route path="/admin/daily-combos" component={DailyCombosManagement} />
                   <Route path="/admin/settings" component={Settings} />
                   <Route path="/admin/reports" component={Reports} />
                   <Route><Redirect to="/admin/dashboard" /></Route>

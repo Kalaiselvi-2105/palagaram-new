@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { Navbar } from "@/components/sections/Navbar";
 import { Hero } from "@/components/sections/Hero";
+import { DailyFoodCombos } from "@/components/sections/DailyFoodCombos";
 import { About } from "@/components/sections/About";
 import { MenuShowcase } from "@/components/sections/MenuShowcase";
 import { MenuCategories } from "@/components/sections/MenuCategories";
@@ -38,6 +39,7 @@ export default function Home() {
         <Navbar />
         <main className="flex-1">
           <Hero />
+          <DailyFoodCombos />
           <About />
           <MenuShowcase />
           <MenuCategories />
