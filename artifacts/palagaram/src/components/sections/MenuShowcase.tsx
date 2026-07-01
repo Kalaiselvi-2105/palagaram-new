@@ -8,12 +8,12 @@ const categories = ["South Indian Breakfast", "Mini Tiffin", "Meals", "Biryani",
 
 const menuData = [
   { id: 1, name: "Ghee Roast Masala Dosa", price: 120, desc: "Crispy golden crepe roasted in pure ghee, stuffed with spiced potato masala.", category: "South Indian Breakfast", image: "/dosa.png" },
-  { id: 2, name: "Kanchipuram Idli", price: 80, desc: "Steamed rice cakes spiced with pepper, cumin, and ginger, wrapped in mandharai leaves.", category: "South Indian Breakfast", image: "" },
-  { id: 3, name: "Ven Pongal", price: 70, desc: "Comforting rice and lentil porridge tempered with black pepper, cumin, and cashews.", category: "South Indian Breakfast", image: "" },
-  { id: 4, name: "Mini Tiffin", price: 150, desc: "A delightful combination of miniature dosa, idli, vada, pongal, and sweet.", category: "Mini Tiffin", image: "" },
-  { id: 5, name: "Palagaram Special Thali", price: 250, desc: "Authentic South Indian full meal served on a banana leaf with 10+ delicacies.", category: "Meals", image: "" },
-  { id: 6, name: "Chettinad Veg Biryani", price: 180, desc: "Aromatic basmati rice cooked with fresh vegetables and secret Chettinad spices.", category: "Biryani", image: "" },
-  { id: 7, name: "Degree Filter Coffee", price: 40, desc: "Freshly brewed traditional Kumbakonam degree coffee served in brass dabarah.", category: "Beverages", image: "" },
+  { id: 2, name: "Kanchipuram Idli", price: 80, desc: "Steamed rice cakes spiced with pepper, cumin, and ginger, wrapped in mandharai leaves.", category: "South Indian Breakfast", image: "https://images.unsplash.com/photo-1630409351241-e90e7f6a2f82?w=600&h=400&q=80&auto=format&fit=crop" },
+  { id: 3, name: "Ven Pongal", price: 70, desc: "Comforting rice and lentil porridge tempered with black pepper, cumin, and cashews.", category: "South Indian Breakfast", image: "https://images.unsplash.com/photo-1723721891613-e6ce2c2c5219?w=600&h=400&q=80&auto=format&fit=crop" },
+  { id: 4, name: "Mini Tiffin", price: 150, desc: "A delightful combination of miniature dosa, idli, vada, pongal, and sweet.", category: "Mini Tiffin", image: "https://images.unsplash.com/photo-1606491956689-2ea866880c84?w=600&h=400&q=80&auto=format&fit=crop" },
+  { id: 5, name: "Palagaram Special Thali", price: 250, desc: "Authentic South Indian full meal served on a banana leaf with 10+ delicacies.", category: "Meals", image: "https://images.unsplash.com/photo-1589301760014-d929f3979dbc?w=600&h=400&q=80&auto=format&fit=crop" },
+  { id: 6, name: "Chettinad Veg Biryani", price: 180, desc: "Aromatic basmati rice cooked with fresh vegetables and secret Chettinad spices.", category: "Biryani", image: "https://images.unsplash.com/photo-1596797038530-2c107229654b?w=600&h=400&q=80&auto=format&fit=crop" },
+  { id: 7, name: "Degree Filter Coffee", price: 40, desc: "Freshly brewed traditional Kumbakonam degree coffee served in brass dabarah.", category: "Beverages", image: "https://images.unsplash.com/photo-1511920170033-f8396924c348?w=600&h=400&q=80&auto=format&fit=crop" },
 ];
 
 export function MenuShowcase() {
