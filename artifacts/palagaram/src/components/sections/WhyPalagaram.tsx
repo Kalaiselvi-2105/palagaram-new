@@ -7,37 +7,49 @@ const reasons = [
     icon: Leaf,
     number: "01",
     title: "Fresh Ingredients",
-    desc: "Sourced daily from trusted local farms — no preservatives, no compromise on quality.",
+    desc: "Sourced daily from trusted local farms — no preservatives, ever.",
+    image:
+      "https://images.unsplash.com/photo-1540420773420-3366772f4999?auto=format&fit=crop&w=800&q=85",
   },
   {
     icon: ShieldCheck,
     number: "02",
     title: "100% Vegetarian",
-    desc: "Pure, satvik cuisine crafted with devotion — always wholesome, always honest.",
+    desc: "Pure satvik cuisine — always wholesome, always honest.",
+    image:
+      "https://images.unsplash.com/photo-1585937421612-70a008356fbe?auto=format&fit=crop&w=800&q=85",
   },
   {
     icon: BookOpen,
     number: "03",
     title: "Traditional Recipes",
-    desc: "Recipes passed down through generations — each dish carries a story and a soul.",
+    desc: "Passed down through generations — every dish carries a soul.",
+    image:
+      "https://images.unsplash.com/photo-1567337710282-00832b415979?auto=format&fit=crop&w=800&q=85",
   },
   {
     icon: Sparkles,
     number: "04",
     title: "Premium Hygiene",
-    desc: "FSSAI certified with spotless standards — your health is our first ingredient.",
+    desc: "FSSAI certified, spotless standards — health is our first ingredient.",
+    image:
+      "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?auto=format&fit=crop&w=800&q=85",
   },
   {
     icon: Zap,
     number: "05",
     title: "Fast Service",
-    desc: "Hot food served within minutes — great food should never make you wait.",
+    desc: "Hot food at your table within minutes — no waiting, ever.",
+    image:
+      "https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=800&q=85",
   },
   {
     icon: Users,
     number: "06",
     title: "Family Friendly",
-    desc: "A warm, welcoming space for every generation — from elders to little ones.",
+    desc: "A warm, welcoming space for every generation at one table.",
+    image:
+      "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=800&q=85",
   },
 ];
 
@@ -59,13 +71,13 @@ function FeatureCard({
 
   const mx = useMotionValue(0);
   const my = useMotionValue(0);
-  const rotX = useSpring(useTransform(my, [-0.5, 0.5], [7, -7]), {
-    stiffness: 280,
-    damping: 35,
+  const rotX = useSpring(useTransform(my, [-0.5, 0.5], [5, -5]), {
+    stiffness: 260,
+    damping: 38,
   });
-  const rotY = useSpring(useTransform(mx, [-0.5, 0.5], [-7, 7]), {
-    stiffness: 280,
-    damping: 35,
+  const rotY = useSpring(useTransform(mx, [-0.5, 0.5], [-5, 5]), {
+    stiffness: 260,
+    damping: 38,
   });
 
   const Icon = reason.icon;
@@ -85,130 +97,170 @@ function FeatureCard({
 
   return (
     <motion.div
-      initial={{ opacity: 0, y: 56 }}
+      initial={{ opacity: 0, y: 60 }}
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true, margin: "-40px" }}
       transition={{
-        delay: index * 0.08,
-        duration: 0.75,
+        delay: index * 0.09,
+        duration: 0.8,
         ease: [0.16, 1, 0.3, 1],
       }}
-      style={{ perspective: "1100px" }}
+      style={{ perspective: "1000px" }}
+      className="h-80 md:h-[340px]"
     >
       <motion.div
         ref={ref}
         onMouseMove={onMouseMove}
         onMouseEnter={() => setHovered(true)}
         onMouseLeave={onMouseLeave}
-        className="relative rounded-2xl p-7 h-full overflow-hidden cursor-default"
+        className="relative w-full h-full rounded-2xl overflow-hidden cursor-default"
         style={{
           rotateX: rotX,
           rotateY: rotY,
           transformStyle: "preserve-3d",
-          background: hovered
-            ? "rgba(200,155,90,0.045)"
-            : "rgba(255,255,255,0.025)",
-          border: hovered
-            ? "1px solid rgba(200,155,90,0.42)"
-            : "1px solid rgba(255,255,255,0.06)",
           boxShadow: hovered
-            ? "0 24px 64px rgba(200,155,90,0.13), 0 0 0 1px rgba(200,155,90,0.08), inset 0 1px 0 rgba(255,255,255,0.04)"
-            : "none",
-          transition:
-            "background 0.45s ease, border 0.45s ease, box-shadow 0.45s ease",
+            ? "0 28px 70px rgba(0,0,0,0.55), 0 0 0 1px rgba(200,155,90,0.5)"
+            : "0 8px 32px rgba(0,0,0,0.4), 0 0 0 1px rgba(255,255,255,0.06)",
+          transition: "box-shadow 0.45s ease",
         }}
       >
-        {/* Shimmer sweep */}
+        {/* Background image */}
+        <motion.div
+          className="absolute inset-0 w-full h-full"
+          animate={{ scale: hovered ? 1.08 : 1 }}
+          transition={{ duration: 0.65, ease: [0.16, 1, 0.3, 1] }}
+        >
+          <img
+            src={reason.image}
+            alt={reason.title}
+            className="w-full h-full object-cover"
+            loading="lazy"
+          />
+        </motion.div>
+
+        {/* Base gradient overlay (always) */}
+        <div
+          className="absolute inset-0 transition-opacity duration-500"
+          style={{
+            background:
+              "linear-gradient(to top, rgba(10,5,2,0.96) 0%, rgba(10,5,2,0.7) 45%, rgba(10,5,2,0.25) 100%)",
+            opacity: hovered ? 0.88 : 1,
+          }}
+        />
+
+        {/* Hover golden tint overlay */}
+        <motion.div
+          className="absolute inset-0 pointer-events-none"
+          animate={{ opacity: hovered ? 1 : 0 }}
+          transition={{ duration: 0.4 }}
+          style={{
+            background:
+              "linear-gradient(135deg, rgba(200,155,90,0.10) 0%, transparent 60%)",
+          }}
+        />
+
+        {/* Shimmer sweep on hover */}
         <motion.div
           className="absolute inset-0 pointer-events-none"
           initial={{ x: "-110%", opacity: 0 }}
           animate={
-            hovered
-              ? { x: "110%", opacity: 1 }
-              : { x: "-110%", opacity: 0 }
+            hovered ? { x: "110%", opacity: 1 } : { x: "-110%", opacity: 0 }
           }
-          transition={{ duration: 0.65, ease: "easeInOut" }}
+          transition={{ duration: 0.7, ease: "easeInOut" }}
           style={{
             background:
-              "linear-gradient(105deg, transparent 0%, rgba(200,155,90,0.07) 40%, rgba(200,155,90,0.14) 50%, rgba(200,155,90,0.07) 60%, transparent 100%)",
+              "linear-gradient(105deg, transparent 30%, rgba(200,155,90,0.12) 50%, transparent 70%)",
           }}
         />
 
-        {/* Decorative number */}
-        <span
-          className="absolute -right-1 -top-3 text-[6.5rem] font-serif font-bold leading-none select-none pointer-events-none"
-          style={{
-            color: hovered
-              ? "rgba(200,155,90,0.14)"
-              : "rgba(200,155,90,0.05)",
-            transition: "color 0.5s ease",
-          }}
-        >
-          {reason.number}
-        </span>
-
-        {/* Content z layer */}
-        <div className="relative z-10 flex flex-col h-full">
-          {/* Icon container */}
+        {/* Top area: number + icon */}
+        <div className="absolute top-5 inset-x-5 flex items-start justify-between">
+          {/* Icon badge */}
           <motion.div
-            animate={hovered ? { y: -5, scale: 1.08 } : { y: 0, scale: 1 }}
-            transition={{ type: "spring", stiffness: 320, damping: 22 }}
-            className="mb-6"
+            animate={hovered ? { y: -3, scale: 1.1 } : { y: 0, scale: 1 }}
+            transition={{ type: "spring", stiffness: 340, damping: 24 }}
+            className="w-11 h-11 rounded-xl flex items-center justify-center"
+            style={{
+              background: hovered
+                ? "rgba(200,155,90,0.25)"
+                : "rgba(255,255,255,0.1)",
+              backdropFilter: "blur(8px)",
+              border: hovered
+                ? "1px solid rgba(200,155,90,0.5)"
+                : "1px solid rgba(255,255,255,0.15)",
+              boxShadow: hovered ? "0 0 18px rgba(200,155,90,0.3)" : "none",
+              transition: "all 0.4s ease",
+            }}
           >
-            <div
-              className="w-14 h-14 rounded-xl flex items-center justify-center"
+            <Icon
+              className="w-5 h-5"
+              strokeWidth={1.5}
               style={{
-                background: hovered
-                  ? "rgba(200,155,90,0.18)"
-                  : "rgba(255,255,255,0.05)",
-                boxShadow: hovered
-                  ? "0 0 24px rgba(200,155,90,0.22), inset 0 1px 0 rgba(200,155,90,0.15)"
-                  : "none",
-                transition: "background 0.4s ease, box-shadow 0.4s ease",
+                color: hovered ? "#C89B5A" : "rgba(255,255,255,0.75)",
+                transition: "color 0.4s ease",
               }}
-            >
-              <Icon
-                className="w-6 h-6 transition-colors duration-400"
-                strokeWidth={1.5}
-                style={{ color: hovered ? "#C89B5A" : "rgba(234,219,200,0.5)" }}
-              />
-            </div>
+            />
           </motion.div>
 
-          {/* Title */}
-          <h3
-            className="font-serif font-bold text-xl mb-3 transition-colors duration-350"
-            style={{ color: hovered ? "#FAF8F5" : "rgba(234,219,200,0.85)" }}
+          {/* Decorative number */}
+          <span
+            className="font-serif font-bold text-4xl leading-none select-none"
+            style={{
+              color: hovered
+                ? "rgba(200,155,90,0.55)"
+                : "rgba(255,255,255,0.18)",
+              transition: "color 0.45s ease",
+              textShadow: hovered ? "0 0 20px rgba(200,155,90,0.3)" : "none",
+            }}
           >
-            {reason.title}
-          </h3>
+            {reason.number}
+          </span>
+        </div>
 
-          {/* Animated gold divider */}
+        {/* Bottom content */}
+        <div className="absolute bottom-0 inset-x-0 p-6">
+          {/* Gold divider — slides in on hover */}
           <motion.div
-            className="h-px bg-gradient-to-r from-[#C89B5A] to-transparent mb-4 origin-left"
+            className="h-px origin-left mb-4"
+            style={{
+              background:
+                "linear-gradient(90deg, #C89B5A, rgba(200,155,90,0.2))",
+            }}
             animate={
               hovered ? { scaleX: 1, opacity: 1 } : { scaleX: 0, opacity: 0 }
             }
-            transition={{ duration: 0.35, delay: hovered ? 0.04 : 0 }}
+            transition={{ duration: 0.38, ease: "easeOut" }}
           />
 
-          {/* Description */}
-          <p
-            className="text-sm leading-relaxed transition-colors duration-350"
-            style={{ color: hovered ? "rgba(234,219,200,0.75)" : "rgba(234,219,200,0.35)" }}
+          <motion.h3
+            className="font-serif font-bold text-xl text-white mb-2 leading-snug"
+            animate={hovered ? { y: -2 } : { y: 0 }}
+            transition={{ type: "spring", stiffness: 280, damping: 25 }}
+          >
+            {reason.title}
+          </motion.h3>
+
+          <motion.p
+            className="text-sm leading-relaxed"
+            style={{ color: "rgba(234,219,200,0.7)" }}
+            animate={
+              hovered ? { opacity: 1, y: 0 } : { opacity: 0, y: 6 }
+            }
+            transition={{ duration: 0.35, delay: hovered ? 0.06 : 0 }}
           >
             {reason.desc}
-          </p>
+          </motion.p>
         </div>
 
-        {/* Bottom glow line */}
-        <div
-          className="absolute bottom-0 left-1/2 -translate-x-1/2 h-px w-3/4 transition-all duration-500"
-          style={{
+        {/* Bottom gold glow line */}
+        <motion.div
+          className="absolute bottom-0 inset-x-0 h-[2px]"
+          animate={{
             background: hovered
-              ? "linear-gradient(90deg, transparent, rgba(200,155,90,0.65), transparent)"
-              : "linear-gradient(90deg, transparent, rgba(200,155,90,0.1), transparent)",
+              ? "linear-gradient(90deg, transparent, rgba(200,155,90,0.8), transparent)"
+              : "linear-gradient(90deg, transparent, rgba(200,155,90,0.15), transparent)",
           }}
+          transition={{ duration: 0.4 }}
         />
       </motion.div>
     </motion.div>
@@ -218,9 +270,9 @@ function FeatureCard({
 export function WhyPalagaram() {
   return (
     <section id="why" className="py-28 bg-[#1A0E08] relative overflow-hidden">
-      {/* Grid texture */}
+      {/* Subtle grid texture */}
       <div
-        className="absolute inset-0 pointer-events-none opacity-[0.025]"
+        className="absolute inset-0 pointer-events-none opacity-[0.022]"
         style={{
           backgroundImage:
             "linear-gradient(rgba(200,155,90,1) 1px, transparent 1px), linear-gradient(90deg, rgba(200,155,90,1) 1px, transparent 1px)",
@@ -229,13 +281,13 @@ export function WhyPalagaram() {
       />
 
       {/* Central radial glow */}
-      <div className="absolute inset-0 bg-[radial-gradient(ellipse_80%_55%_at_50%_50%,_rgba(200,155,90,0.055)_0%,_transparent_70%)] pointer-events-none" />
+      <div className="absolute inset-0 bg-[radial-gradient(ellipse_80%_55%_at_50%_40%,_rgba(200,155,90,0.05)_0%,_transparent_70%)] pointer-events-none" />
 
       {/* Top separator */}
       <div className="absolute top-0 inset-x-0 h-px bg-gradient-to-r from-transparent via-[#C89B5A]/25 to-transparent" />
 
       <div className="container mx-auto px-6 md:px-10 relative z-10">
-        {/* ── Header ───────────────────────────────────── */}
+        {/* ── Header ── */}
         <div className="text-center mb-14">
           <motion.div
             initial={{ opacity: 0, y: 18 }}
@@ -273,13 +325,13 @@ export function WhyPalagaram() {
           </motion.p>
         </div>
 
-        {/* ── Stats strip ──────────────────────────────── */}
+        {/* ── Stats strip ── */}
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ delay: 0.2 }}
-          className="flex justify-center items-center gap-0 mb-16"
+          className="flex justify-center items-center mb-16"
         >
           {stats.map((s, i) => (
             <div key={i} className="flex items-center">
@@ -298,22 +350,22 @@ export function WhyPalagaram() {
           ))}
         </motion.div>
 
-        {/* ── Cards grid ───────────────────────────────── */}
+        {/* ── Cards grid ── */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-5">
           {reasons.map((r, i) => (
             <FeatureCard key={r.number} reason={r} index={i} />
           ))}
         </div>
 
-        {/* ── Bottom quote ─────────────────────────────── */}
+        {/* ── Bottom quote ── */}
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
-          transition={{ delay: 0.25 }}
+          transition={{ delay: 0.3 }}
           className="text-center mt-16"
         >
-          <p className="font-serif italic text-[#EADBC8]/22 text-lg tracking-wide select-none">
+          <p className="font-serif italic text-[#EADBC8]/25 text-lg tracking-wide select-none">
             "Where every meal is a promise kept."
           </p>
         </motion.div>
