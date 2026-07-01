@@ -39,6 +39,7 @@ const img = (id: string, w = 600, h = 400) =>
 
 // Category banner images
 const BANNERS = {
+  southIndianBreakfast: img("1630409351241-e90e7f6a2f82", 1200, 600),
   starters:    img("1565557623262-b51c2513a641", 1200, 600),
   soups:       img("1547592166-23ac45744acd", 1200, 600),
   northIndian: img("1585937421612-70a008356c36", 1200, 600),
@@ -56,6 +57,20 @@ const BANNERS = {
 // Dish images — unique per dish type
 // ---------------------------------------------------------------------------
 const D = {
+  // South Indian Breakfast
+  idli:             img("1630409351241-e90e7f6a2f82"),  // soft white steamed idli
+  masalaDosa:       img("1606491956689-2ea866880c84"),  // crispy dosa with potato masala
+  plainDosa:        img("1548943487-a2e4e43b4853"),     // thin crispy plain dosa
+  gheeRoastDosa:    img("1605197188-7b4c3dc97ef0"),     // golden ghee-roasted dosa
+  ravaDosa:         img("1572802419509-9b7f7b4a7c90"),  // lacy rava dosa
+  setDosa:          img("1524114664-f6e35c85f2ba"),     // thick soft mini dosas
+  venPongal:        img("1723721891613-e6ce2c2c5219"),  // creamy rice-lentil pongal
+  karaPongal:       img("1564671174-5567d50cf7d4"),     // spiced kara pongal
+  meduVada:         img("1568901346729-59bf4e338612"),  // crispy golden vada
+  poorMasala:       img("1558618666-fcd25c85cd64"),     // puffy poori with potato masala
+  upma:             img("1582268611958-ebfd161ef9cf"),  // semolina upma
+  ravaIdli:         img("1613844237701-8f3664fc2eff"),  // fluffy rava idli
+
   // Starters — cauliflower, paneer, rolls, cutlet
   gobi65:             img("1645177628172-a786cb92f1c7"),  // cauliflower crispy gold
   chilliGobi:         img("1565557623262-b51c2513a641"),  // mixed crispy starters
@@ -177,6 +192,28 @@ const D = {
 // ---------------------------------------------------------------------------
 
 export const MENU: MenuCategory[] = [
+  // ─── 0. SOUTH INDIAN BREAKFAST ──────────────────────────────────────────
+  {
+    slug: "south-indian-breakfast",
+    name: "South Indian Breakfast",
+    shortDesc: "Authentic Chettinad morning classics — steamed, fermented, and freshly made every day.",
+    bannerImage: BANNERS.southIndianBreakfast,
+    dishes: [
+      { id: "sb01", name: "Idli",             desc: "Soft, pillowy steamed rice cakes served with sambar and three house chutneys.", price: 60,  spice: 0, prepTime: "5 min",  isBestSeller: true, imageUrl: D.idli,          tags: ["Mild","Steamed","Classic"] },
+      { id: "sb02", name: "Masala Dosa",      desc: "Crispy golden crepe stuffed with spiced potato masala, served with sambar and chutneys.", price: 100, spice: 1, prepTime: "10 min", isBestSeller: true, isChefPick: true, imageUrl: D.masalaDosa,   tags: ["Crispy","Classic"] },
+      { id: "sb03", name: "Plain Dosa",       desc: "Thin, lacy, perfectly crisped dosa — light and satisfying with sambar and coconut chutney.", price: 70,  spice: 0, prepTime: "8 min",  imageUrl: D.plainDosa,    tags: ["Crispy","Mild"] },
+      { id: "sb04", name: "Ghee Roast Dosa",  desc: "A generous pour of pure ghee roasts this dosa to an irresistible, buttery crispness.", price: 120, spice: 0, prepTime: "10 min", isChefPick: true, imageUrl: D.gheeRoastDosa, tags: ["Crispy","Butter","Rich"] },
+      { id: "sb05", name: "Rava Dosa",        desc: "Lacy, crunchy dosa made from semolina — light and netted with a golden finish.", price: 110, spice: 1, prepTime: "10 min", imageUrl: D.ravaDosa,     tags: ["Crispy","Unique"] },
+      { id: "sb06", name: "Set Dosa",         desc: "Three thick, soft, spongy mini dosas served with coconut chutney and sambar.", price: 80,  spice: 0, prepTime: "10 min", imageUrl: D.setDosa,      tags: ["Soft","Mild"] },
+      { id: "sb07", name: "Ven Pongal",       desc: "Comforting rice and lentil porridge tempered with black pepper, cumin, ginger, and cashews.", price: 70,  spice: 1, prepTime: "8 min",  isBestSeller: true, imageUrl: D.venPongal,    tags: ["Comfort","Classic"] },
+      { id: "sb08", name: "Kara Pongal",      desc: "Spiced pongal tempered with red chillies, mustard, and fresh curry leaves — bold and warming.", price: 80,  spice: 2, prepTime: "8 min",  imageUrl: D.karaPongal,   tags: ["Spicy","Comfort"] },
+      { id: "sb09", name: "Medu Vada",        desc: "Crispy, golden, donut-shaped lentil fritters with a fluffy interior. Served with sambar.", price: 70,  spice: 1, prepTime: "10 min", isBestSeller: true, imageUrl: D.meduVada,     tags: ["Crispy","Classic"] },
+      { id: "sb10", name: "Poori Masala",     desc: "Puffy, deep-fried whole-wheat pooris served with a hearty, spiced potato masala.", price: 90,  spice: 1, prepTime: "12 min", imageUrl: D.poorMasala,   tags: ["Fried","Classic"] },
+      { id: "sb11", name: "Upma",             desc: "Fluffy semolina porridge tempered with mustard seeds, curry leaves, ginger, and vegetables.", price: 60,  spice: 1, prepTime: "8 min",  imageUrl: D.upma,         tags: ["Comfort","Mild"] },
+      { id: "sb12", name: "Rava Idli",        desc: "Soft, fluffy idli made from roasted semolina — lighter texture with a coconut chutney pairing.", price: 70,  spice: 0, prepTime: "8 min",  isNew: true, imageUrl: D.ravaIdli,     tags: ["Steamed","Mild","New"] },
+    ],
+  },
+
   // ─── 1. STARTERS ────────────────────────────────────────────────────────
   {
     slug: "starters",
