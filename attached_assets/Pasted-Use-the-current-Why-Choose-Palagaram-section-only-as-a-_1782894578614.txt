@@ -1,0 +1,51 @@
+Use the current "Why Choose Palagaram" section only as a reference. Do not simply make the requested changes. Think like a senior UI/UX designer and create the best possible premium experience.
+
+Your goal is to redesign this section so it feels like a world-class luxury restaurant website.
+
+Requirements:
+
+1. Keep only the 6 most important reasons:
+   • Fresh Ingredients
+   • 100% Vegetarian
+   • Traditional Recipes
+   • Premium Hygiene
+   • Fast Service
+   • Family Friendly
+
+2. Completely rethink the layout if needed. Don't feel restricted by the current design. If a better arrangement exists, use it.
+
+3. Make the section highly interactive with premium animations and micro-interactions.
+
+4. Add modern hover effects such as:
+   - Smooth lift animation
+   - Soft golden glow
+   - Elegant shadow
+   - Icon animation
+   - Smooth background transition
+   - Premium border animation
+   - Cursor interaction
+   - 3D depth effect (subtle)
+
+5. Add beautiful entrance animations when the section comes into view.
+
+6. Make each card feel alive using subtle motion, floating icons, shimmer effects, or other elegant interactions without distracting the user.
+
+7. Improve spacing, typography, alignment, and visual hierarchy so everything looks luxurious.
+
+8. Use premium UI/UX principles similar to high-end restaurant, hotel, or luxury brand websites.
+
+9. If you have a better design idea than the current one, implement it automatically.
+
+10. Keep the website's existing branding, colors, fonts, and theme consistent.
+
+11. Do not add unnecessary content. Focus on quality instead of quantity.
+
+12. Make this one of the most attractive and memorable sections on the website.
+
+13. Optimize everything for Desktop, Tablet, and Mobile.
+
+14. Use your own creativity and professional design knowledge. Do not just follow the reference exactly.
+
+15. Surprise me with a modern, elegant, premium, interactive design that looks production-ready.
+
+Take full creative freedom and build the best version possible while keeping it clean, premium, and perfectly matching the Palagaram brand.
